@@ -16,12 +16,6 @@ El proyecto consitirá en la explicación de la herramienta **grafana** y de var
 * Uso de la monitorización en grafana junto a las aplicaciones influxDB y telegraf.
 * Uso e implementación de grafana y las aplicaciones en **Dockers**.
 
+## Documentación
 
-
-
-
-
-
-
-
-
+## Calendario del proyecto

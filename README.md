@@ -6,8 +6,21 @@
 
 ## Información sobre el proyecto
 
-El proyecto consitirá en la explicación de la herramienta **grafana**. Explicaremos su funcionamiento y demostraremos
-varios ejemplos junto a las aplicaciones para la monitorización y para las bases de datos llamadas **influxDB**, **telegraf**, **dockers** y el uso de **MYSQL**.
+El proyecto consitirá en la explicación de la herramienta **grafana** y de varias aplicaciones de monitorización y de base de datos. Explicaremos su funcionamiento y demostraremos varios ejemplos junto a las aplicaciones pllamadas **influxDB**, **telegraf**, **dockers** y el uso de **MySQL**.
+
+## Estructura del proyecto
+
+* Investigación sobre grafana (Que és?, características, información, estructura).
+* Investigación y uso de **MySQL** en grafana.
+* Investigación sobre las aplicaciones **influxDB** y **telegraf**.
+* Uso de la monitorización en grafana junto a las aplicaciones influxDB y telegraf.
+* Uso e implementación de grafana y las aplicaciones en **Dockers**.
+
+
+
+
+
+
 
 
 

@@ -1,4 +1,4 @@
-**PROYECTO GRAFANA**
+# PROYECTO GRAFANA
 
 * Sergi Muñoz Carmona
 * isx39449342

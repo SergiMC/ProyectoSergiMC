@@ -18,6 +18,8 @@ El proyecto consitirá en la explicación de la herramienta **grafana** y de var
 
 ## Documentación
 
+La [Documentación](https://github.com/SergiMC/ProyectoSergiMC/tree/master/Documentaci%C3%B3n) del proyecto estará en este apartado.
+
 ## Calendario del proyecto
 
 El [Calendario](https://github.com/SergiMC/ProyectoSergiMC/tree/master/Calendario) consta del seguimiento de los objetivos del proyecto.

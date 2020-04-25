@@ -9,7 +9,7 @@ Respecto a los datos que podemos usar en grafana,existe una gran variedad de inf
 * Como datos de estado de recursos (CPU, RAM, disco).
 * Servicios como MySQL, PostgreSQL, Apache, influxDB, etc.
 
-# Características de Grafana
+## Características de Grafana
 
 
 

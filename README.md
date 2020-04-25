@@ -20,4 +20,4 @@ El proyecto consitirá en la explicación de la herramienta **grafana** y de var
 
 ## Calendario del proyecto
 
-[Calendario](https://github.com/SergiMC/ProyectoSergiMC/tree/master/Calendario) Consta del seguimiento de los objetivos del proyecto.
+El [Calendario](https://github.com/SergiMC/ProyectoSergiMC/tree/master/Calendario)consta del seguimiento de los objetivos del proyecto.

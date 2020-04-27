@@ -22,7 +22,7 @@ Grafana está compuesto por una serie de características:
 
 ## Tableros de Grafana
 
-![grafana](Fotos/TableroGrafanaEj.png)
+![grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/TableroGrafanaEj.png)
 
 Los tableros extraen 
 

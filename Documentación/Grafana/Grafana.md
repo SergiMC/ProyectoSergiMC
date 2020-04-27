@@ -11,6 +11,22 @@ Respecto a los datos que podemos usar en grafana,existe una gran variedad de inf
 
 ## Características de Grafana
 
+Grafana está compuesto por una serie de características: 
+
+* Grafana dispone de una serie de tableros y paneles (mas de 600) para la visualización de los datos y con varias opciones.
+* Grafana proporciona el uso de más de un tablero y paneles que se encuentran en la biblioteca oficial
+* Grafana permite la autenticación a través de LDAP,Google Auth,grafana y github.
+* Grafana permite el intercambio de datos y tableros entre equipos.
+* Grafana permite crear alertas de seguridad en los casos que necesitemos o nos sea útil.
+* Grafana nos ayuda a rastrear el comportamiento del usuario, de la aplicación y de los errores.
+
+## Tableros de Grafana
+
+Los tableros extraen 
+
+
+
+
 
 
 

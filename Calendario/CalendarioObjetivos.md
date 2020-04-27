@@ -11,6 +11,8 @@ Por determinar          | Documentación telegraf        |
 Por determinar          | Instalación telegraf          |
 Por determinar          | Documentación Docker grafana  |
 Por determinar          | Implementación en Docker      |
+
+Estos son los objetivos que tengo en mente de momento, solo es un borrador ya que pueden haber mas o pueden ser modificados.
                         
                       
 

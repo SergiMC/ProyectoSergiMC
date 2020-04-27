@@ -40,4 +40,4 @@ Deberemos tener en cuenta los ficheros de grafana y su ubicación una vez termin
 * El fichero de los registros se ubica en **/var/log/grafana/grafana.log**.
 * El fichero de la base de datos (db sqlite3) se ubica en **/var/lib/grafana/grafana.db**.
 
-## Introducción a Grafana (versión gráfica)
+## Grafana (versión gráfica)

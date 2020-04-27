@@ -24,20 +24,18 @@ Grafana está compuesto por una serie de características:
 
 ![grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/TableroGrafanaEj.png)
 
-Los tableros extraen 
+Los tableros extraen los datos de la base de datos que hemos insertado, ya sea de **MySQL**, **PostgresSQL**, **influxDB**, etc.
+
+Los paneles contienen una cantidad de opciones de visualización como mapas geográficos, mapas térmicos, histogramas, en general son los tipos de visualización que una empresa requiere para los estudios de los datos.
 
 
+## Ficheros de Grafana importantes.
 
+Deberemos tener en cuenta los ficheros de grafana y su ubicación una vez terminada la instalación.
 
-
-
-
-
-
-
-
-
-
-
-
-
+* El *fichero binario* se ubica en **/usr/sbin/grafana-server**.
+* El *script Init.d* de inicio se ubica en **/etc/init.d/grafana-server**.
+* El fichero por defecto (debemos crearlo) se ubica en **/etc/default/grafana-server**.
+* El fichero de configuración se ubica en **/etc/grafana/grafana.ini**.
+* El fichero de los registros se ubica en **/var/log/grafana/grafana.log**.
+* El fichero de la base de datos (db sqlite3) se ubica en /var/lib/grafana/grafana.db.

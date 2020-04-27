@@ -41,3 +41,5 @@ Deberemos tener en cuenta los ficheros de grafana y su ubicación una vez termin
 * El fichero de la base de datos (db sqlite3) se ubica en **/var/lib/grafana/grafana.db**.
 
 ## Grafana (versión gráfica)
+
+* Introducción

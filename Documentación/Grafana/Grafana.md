@@ -52,7 +52,7 @@ Una vez instalado grafana, pondremos en marcha el servidor y iremos a nuestro na
 
 Iniciado grafana, nos redigrigirá a su pantalla inicial formada por un dashboard que utiliza por defecto, indicando las tareas que debemos seguir para su correcto funcionamiento.
 
-Estas tareas están formadas por : *Instalar Grafana, *Añadir una fuente de datos, * Crear nuestro dashboard, *Añadir a usuarios, *El uso de plug-ins.
+Estas tareas están formadas por : *Instalar Grafana*, *Añadir una fuente de datos*, * Crear nuestro dashboard*, *Añadir a usuarios*, *El uso de plug-ins*.
 
 ![grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/inicioGrafana.png)
 

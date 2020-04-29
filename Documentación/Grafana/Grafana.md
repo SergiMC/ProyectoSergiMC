@@ -49,5 +49,3 @@ Una vez instalado grafana, pondremos en marcha el servidor y iremos a nuestro na
 **localhost:3000**. Utilizaremos el puerto 3000 ya que grafana escucha y utiliza dicho puerto. Nos registraremos con las credenciales: **admin/admin**.
 
 
-![grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/portalGrafana.png)
-

@@ -42,4 +42,10 @@ Deberemos tener en cuenta los ficheros de grafana y su ubicación una vez termin
 
 ## Grafana (versión gráfica)
 
-* Introducción
+* Introducción (Uso de grafana en modo gráfico)
+
+En primer lugar, deberemos descargar grafana para obtener la versión gráfica.
+Una vez instalado grafana, pondremos en marcha el servidor y iremos a nuestro navegador y insertaremos en la URL:
+**localhost:3000**. Utilizaremos el puerto 3000 ya que grafana escucha y utiliza dicho puerto. Nos registraremos con las credenciales: **admin/admin**.
+
+

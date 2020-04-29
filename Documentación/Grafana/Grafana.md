@@ -50,3 +50,8 @@ Una vez instalado grafana, pondremos en marcha el servidor y iremos a nuestro na
 
 ![grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/portalGrafana.png)
 
+Iniciado grafana, nos redigrigirá a su pantalla inicial formada por un dashboard que utiliza por defecto, indicando las tareas que debemos seguir para su correcto funcionamiento.
+
+![grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/inicioGrafana.png)
+
+

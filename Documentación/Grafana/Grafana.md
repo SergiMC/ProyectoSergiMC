@@ -73,14 +73,13 @@ Una vez hayamos añadido la información de la base de datos, guardaremos clican
 * *Preferences*: Opción que se utiliza para cambiar la temática y el diseño a nuestro gusto.
 * *Api-keys*: Opción Api para conectar e interactuar.
 
-
-
-
 Acabada la configuración de la fuente de datos, haremos la siguiente tarea, crearemos un dashboard. Podemos hacerlo desde el seguimiento de tareas o desde la barra de configuración.
 
+Método desde el seguimiento de tareas:
 
+![grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/creaciondashb.png)
 
+Método desde la barra de configuración:
 
-
-
+![grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/crea1.png)
 

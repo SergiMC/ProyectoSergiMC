@@ -66,12 +66,12 @@ Siguiendo la siguiente tarea, añadiremos una fuente de datos o una base de dato
 
 Una vez hayamos añadido la información de la base de datos, guardaremos clicando la opción de **save and test**. Al acabar la configuración, nos saldrán varias opciones: 
 
-*Data Sources*: Opción donde se reflejan la fuente de datos que hemos configurado y añadido.
-*Users*: Opción donde se refleja lo usuarios.
-*Teams*: Opción que se utiliza para agrupar usuarios.
-*Plugins*: Opción para descargar plugins (tipo panel,fuentes de datos,aplicación).
-*Preferences*: Opción que se utiliza para cambiar la temática y el diseño a nuestro gusto.
-*Api-keys*: Opción Api para conectar e interactuar.
+* *Data Sources*: Opción donde se reflejan la fuente de datos que hemos configurado y añadido.
+* *Users*: Opción donde se refleja lo usuarios.
+* *Teams*: Opción que se utiliza para agrupar usuarios.
+* *Plugins*: Opción para descargar plugins (tipo panel,fuentes de datos,aplicación).
+* *Preferences*: Opción que se utiliza para cambiar la temática y el diseño a nuestro gusto.
+* *Api-keys*: Opción Api para conectar e interactuar.
 
 
 

@@ -56,6 +56,13 @@ Estas tareas están formadas por : *Instalar Grafana*, *Añadir una fuente de da
 
 ![grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/inicioGrafana.png)
 
+Siguiendo la siguiente tarea, añadiremos una fuente de datos o una base de datos, en nuestro caso, haremos un ejemplo con la base de datos influxDB. Una vez dentro de la opción de añadir una base de datos, proporcionaremos los datos que nos pide:
+
+***Nombre de la base de datos:** InfluxDB*.
+***URL:** localhost:8086 (InfluxDB utiliza el puerto 8086)*.
+***Database:*** telegraf (el nombre de la base de datos creada)*.
+
+![grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/inserciondatos.png)
 
 
 

@@ -85,4 +85,5 @@ Método desde la barra de configuración:
 
 Una vez queramos crear un dashboard, tendremos 2 opciones, crear una query o elegir un tipo de gráfico. Si elegimos crear una query, directamente utilizaremos el dashboard predeterminado, si elegimos la opción de que tipo de gráfico elegir, tendremos varias opciones:
 
+![grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/tiposgraficos.png)
 

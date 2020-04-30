@@ -91,5 +91,8 @@ Elegido y configuado el dashboard, deberemos hacer una consulta escogiendo los d
 
 ![grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/query.png)
 
+Finalmente con la query añadida, nos saldrá nuestro panel con los datos configurados, en este caso, hemos hecho 3 paneles con 3 querys distinas. Grafana proporicona diferentes medidas para cualquier tipo de dato. 
+
+![grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/graficosfinales.png)
 
 

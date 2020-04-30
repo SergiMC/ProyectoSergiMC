@@ -22,7 +22,7 @@ Grafana está compuesto por una serie de características:
 
 ## Tableros de Grafana
 
-![grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/TableroGrafanaEj.png)
+![Tablerografana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/TableroGrafanaEj.png)
 
 Los tableros extraen los datos de la base de datos que hemos insertado, ya sea de **MySQL**, **PostgresSQL**, **influxDB**, etc.
 
@@ -48,13 +48,13 @@ En primer lugar, deberemos descargar grafana para obtener la versión gráfica.
 Una vez instalado grafana, pondremos en marcha el servidor y iremos a nuestro navegador y insertaremos en la URL:
 **localhost:3000**. Utilizaremos el puerto 3000 ya que grafana escucha y utiliza dicho puerto. Nos registraremos con las credenciales: **admin/admin**.
 
-![grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/portalGrafana.png)
+![portalgrafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/portalGrafana.png)
 
 Iniciado grafana, nos redigrigirá a su pantalla inicial formada por un dashboard que utiliza por defecto, indicando las tareas que debemos seguir para su correcto funcionamiento.
 
 Estas tareas están formadas por : *Instalar Grafana*, *Añadir una fuente de datos*, *Crear nuestro dashboard*, *Añadir a usuarios*, *El uso de plug-ins*.
 
-![grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/inicioGrafana.png)
+![iniciografana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/inicioGrafana.png)
 
 Siguiendo la siguiente tarea, añadiremos una fuente de datos o una base de datos, en nuestro caso, haremos un ejemplo con la base de datos influxDB. Una vez dentro de la opción de añadir una base de datos, proporcionaremos los datos que nos pide:
 
@@ -62,7 +62,7 @@ Siguiendo la siguiente tarea, añadiremos una fuente de datos o una base de dato
 ***URL:** localhost:8086 (InfluxDB utiliza el puerto 8086)*.
 ***Database:*** telegraf (el nombre de la base de datos creada)*.
 
-![grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/inserciondatos.png)
+![inserciongrafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/inserciondatos.png)
 
 Una vez hayamos añadido la información de la base de datos, guardaremos clicando la opción de **save and test**. Al acabar la configuración, nos saldrán varias opciones: 
 
@@ -77,22 +77,22 @@ Acabada la configuración de la fuente de datos, haremos la siguiente tarea, cre
 
 Método desde el seguimiento de tareas:
 
-![grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/creaciondashb.png)
+![dashboard1grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/creaciondashb.png)
 
 Método desde la barra de configuración:
 
-![grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/crear1.png)
+![dashboard2grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/crear1.png)
 
 Una vez queramos crear un dashboard, tendremos 2 opciones, crear una query o elegir un tipo de gráfico. Si elegimos crear una query, directamente utilizaremos el dashboard predeterminado, si elegimos la opción de que tipo de gráfico elegir, tendremos varias opciones:
 
-![grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/tiposgraficos.png)
+![graficosgrafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/tiposgraficos.png)
 
 Elegido y configuado el dashboard, deberemos hacer una consulta escogiendo los datos y campos que necesitemos. Por ejemplo ver el disco libre que tenemos:
 
-![grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/query.png)
+![querygrafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/query.png)
 
 Finalmente con la query añadida, nos saldrá nuestro panel con los datos configurados, en este caso, hemos hecho 3 paneles con 3 querys distinas. Grafana proporicona diferentes medidas para cualquier tipo de dato. 
 
-![grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/graficosfinales.png)
+![finalgrafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/graficosfinales.png)
 
 

@@ -81,5 +81,3 @@ Método desde el seguimiento de tareas:
 
 Método desde la barra de configuración:
 
-![grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/crea1.png)
-

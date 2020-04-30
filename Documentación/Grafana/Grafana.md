@@ -89,5 +89,7 @@ Una vez queramos crear un dashboard, tendremos 2 opciones, crear una query o ele
 
 Elegido y configuado el dashboard, deberemos hacer una consulta escogiendo los datos y campos que necesitemos. Por ejemplo ver el disco libre que tenemos:
 
+![grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/query.png)
+
 
 

@@ -3,9 +3,9 @@
   Días de realización   |   Objetivos a realizar        | Horas 
 ------------------------|-------------------------------|-------
 24/04/2020 - 25/04/2020 | Búsqueda de información       | 4 horas.
-26/04/2020 - 27/04/2020 | Documentación grafana         |
-Por determinar          | Instalación grafana/uso       |
-Por determinar          | Documentación influxDB        |
+27/04/2020 - 01/05/2020 | Documentación grafana         | 10 horas. (Las dos tareas las hacía a la vez)
+27/04/2020 - 01/05/2020 | Instalación grafana/uso       | 10 horas. (Las dos tareas las hacía a la vez)
+04/05/2020 -            | Documentación influxDB        |
 Por determinar          | Instalación influxDB          |
 Por determinar          | Documentación telegraf        |
 Por determinar          | Instalación telegraf          |

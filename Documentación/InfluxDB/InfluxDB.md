@@ -4,3 +4,4 @@ InfluxDB desarrollada por influxdata, es una base de datos basada en series de t
 
 Uno de los puntos positivos que tiene influxdb es que es una base de datos de código abierto (open source) y permite trabajar con una diversidad de datos.
 
+## Características de InfluxDB

@@ -4,7 +4,7 @@
 ------------------------|-------------------------------|-------
 24/04/2020 - 25/04/2020 | Búsqueda de información       | 4 horas.
 27/04/2020 - 01/05/2020 | Documentación grafana         | 8 horas.
-27/04/2020 - 01/05/2020 | Instalación grafana/uso       | 7 horas. 
+27/04/2020 - 01/05/2020 | Instalación grafana/uso       | 6 horas. 
 04/05/2020 -            | Documentación influxDB        |
 Por determinar          | Instalación influxDB          |
 Por determinar          | Documentación telegraf        |

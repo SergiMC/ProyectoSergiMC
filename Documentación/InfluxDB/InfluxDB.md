@@ -16,14 +16,14 @@ InfluxDB está compuesto por una serie de características:
 
 Dentro de las características de InfluxDB debemos de tener en cuenta una serie de conceptos que forman influxDB:
 
-**Database:**
-**Measurement:**
-**Timestamp:**
-**Field:**
-**Tag:**
-**Point:**
-**Retention polity:**
-**Shard:**
+* **Database:**
+* **Measurement:**
+* **Timestamp:**
+* **Field:**
+* **Tag:**
+* **Point:**
+* **Retention polity:**
+* **Shard:**
 
 
 

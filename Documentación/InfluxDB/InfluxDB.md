@@ -16,11 +16,12 @@ InfluxDB está compuesto por una serie de características:
 
 Dentro de las características de InfluxDB debemos de tener en cuenta una serie de conceptos que forman influxDB:
 
-* **Database:**
-* **Measurement:**
-* **Timestamp:**
-* **Field:**
-* **Tag:**
+* **Database:** Contendor que contiene series temporales,usuarios,políticas de retención...
+* **Measurement:** Estructura en la que se almacena los datos.
+* **Timestamp:** Es la asociación de la fecha y hora en los datos almacenados.
+* **Field:** Es el par clave-valor que almacena los valores de los datos y siempre están asociados a un timestamp.
+(Campos no indexados).
+* **Tag:** Es el par clave-valor que almacena valores de metadatos. (Campos indexados y almacenados como string) 
 * **Point:**
 * **Retention polity:**
 * **Shard:**

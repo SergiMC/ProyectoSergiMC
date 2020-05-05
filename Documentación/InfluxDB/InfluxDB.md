@@ -82,7 +82,12 @@ Para poner en marcha la base de datos influxDB, utilizaremos el siguiente comand
 
 Puesta la base de datos en marcha, abriremos otro terminal para generar y ejecutar consultas:
 
-![influx](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/influx.png)
+```
+[sergimc@192 influxdb-1.8.0-1]$ ./influx
+Connected to http://localhost:8086 version 1.8.0
+InfluxDB shell version: 1.8.0
+> 
+```
 
 Debemos tener en cuenta que influxDB utiliza y escucha a través del puerto **8086**.
 

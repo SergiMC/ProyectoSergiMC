@@ -26,6 +26,8 @@ Dentro de las características de InfluxDB debemos de tener en cuenta una serie 
 * **Retention polity:** Describe durante cuanto tiempo mantiene influxDB los datos en la infraestructura, cantidad de copias  de seguridad crea y el tiempo asociado a los shard groups.
 * **Shard:** Contiene los datos comprimidos y codificados que se guardan en un archivo del disco del servidor. Cada shard pertenece a un solo grupo de shard.
 
-## INFLUXDB (EN TERMINAL)
+## INFLUXDB (En Terminal)
+
+
 
 

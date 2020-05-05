@@ -151,6 +151,16 @@ coronavirus
 > 
 
 ```
+* Para mostrar las tag-keys:
+
+```
+> show tag keys
+name: coronavirus
+tagKey
+------
+virus
+
+```
 
 
 

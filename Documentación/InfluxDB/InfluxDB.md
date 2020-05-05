@@ -33,8 +33,52 @@ Dentro de las características de InfluxDB debemos de tener en cuenta una serie 
 En primer lugar, deberemos instalar influxDB. Una vez instalado, pondremos en marcha la base de datos de influxDB a través de un terminal(consola).
 
 Para poner en marcha la base de datos influxDB, utilizaremos el siguiente comando: **./influxdb**
+```
+[sergimc@192 influxdb-1.8.0-1]$ ./influxd
 
-![comandodb](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/comandodb.png)
+ 8888888           .d888 888                   8888888b.  888888b.
+   888            d88P"  888                   888  "Y88b 888  "88b
+   888            888    888                   888    888 888  .88P
+   888   88888b.  888888 888 888  888 888  888 888    888 8888888K.
+   888   888 "88b 888    888 888  888  Y8bd8P' 888    888 888  "Y88b
+   888   888  888 888    888 888  888   X88K   888    888 888    888
+   888   888  888 888    888 Y88b 888 .d8""8b. 888  .d88P 888   d88P
+ 8888888 888  888 888    888  "Y88888 888  888 8888888P"  8888888P"
+
+2020-05-05T16:43:07.873028Z	info	InfluxDB starting	{"log_id": "0MaRMSt0000", "version": "1.8.0", "branch": "1.8", "commit": "781490de48220d7695a05c29e5a36f550a4568f5"}
+2020-05-05T16:43:07.873075Z	info	Go runtime	{"log_id": "0MaRMSt0000", "version": "go1.13.8", "maxprocs": 4}
+2020-05-05T16:43:08.052000Z	info	Using data dir	{"log_id": "0MaRMSt0000", "service": "store", "path": "/home/sergimc/.influxdb/data"}
+2020-05-05T16:43:08.052078Z	info	Compaction settings	{"log_id": "0MaRMSt0000", "service": "store", "max_concurrent_compactions": 2, "throughput_bytes_per_second": 50331648, "throughput_bytes_per_second_burst": 50331648}
+2020-05-05T16:43:08.052105Z	info	Open store (start)	{"log_id": "0MaRMSt0000", "service": "store", "trace_id": "0MaRMTa0000", "op_name": "tsdb_open", "op_event": "start"}
+2020-05-05T16:43:08.645644Z	info	Reading file	{"log_id": "0MaRMSt0000", "engine": "tsm1", "service": "cacheloader", "path": "/home/sergimc/.influxdb/wal/_internal/monitor/1/_00001.wal", "size": 601115}
+2020-05-05T16:43:08.977222Z	info	Reading file	{"log_id": "0MaRMSt0000", "engine": "tsm1", "service": "cacheloader", "path": "/home/sergimc/.influxdb/wal/telegraf/autogen/2/_00001.wal", "size": 268713}
+2020-05-05T16:43:09.611475Z	info	Opened shard	{"log_id": "0MaRMSt0000", "service": "store", "trace_id": "0MaRMTa0000", "op_name": "tsdb_open", "index_version": "inmem", "path": "/home/sergimc/.influxdb/data/_internal/monitor/1", "duration": "1162.569ms"}
+2020-05-05T16:43:09.611621Z	info	Open store (end)	{"log_id": "0MaRMSt0000", "service": "store", "trace_id": "0MaRMTa0000", "op_name": "tsdb_open", "op_event": "end", "op_elapsed": "1559.515ms"}
+2020-05-05T16:43:09.611787Z	info	Opened shard	{"log_id": "0MaRMSt0000", "service": "store", "trace_id": "0MaRMTa0000", "op_name": "tsdb_open", "index_version": "inmem", "path": "/home/sergimc/.influxdb/data/telegraf/autogen/2", "duration": "797.902ms"}
+2020-05-05T16:43:09.623889Z	info	Opened service	{"log_id": "0MaRMSt0000", "service": "subscriber"}
+2020-05-05T16:43:09.623925Z	info	Starting monitor service	{"log_id": "0MaRMSt0000", "service": "monitor"}
+2020-05-05T16:43:09.623938Z	info	Registered diagnostics client	{"log_id": "0MaRMSt0000", "service": "monitor", "name": "build"}
+2020-05-05T16:43:09.623951Z	info	Registered diagnostics client	{"log_id": "0MaRMSt0000", "service": "monitor", "name": "runtime"}
+2020-05-05T16:43:09.623976Z	info	Registered diagnostics client	{"log_id": "0MaRMSt0000", "service": "monitor", "name": "network"}
+2020-05-05T16:43:09.623994Z	info	Registered diagnostics client	{"log_id": "0MaRMSt0000", "service": "monitor", "name": "system"}
+2020-05-05T16:43:09.641676Z	info	Storing statistics	{"log_id": "0MaRMSt0000", "service": "monitor", "db_instance": "_internal", "db_rp": "monitor", "interval": "10s"}
+2020-05-05T16:43:09.641683Z	info	Starting precreation service	{"log_id": "0MaRMSt0000", "service": "shard-precreation", "check_interval": "10m", "advance_period": "30m"}
+2020-05-05T16:43:09.641732Z	info	Starting snapshot service	{"log_id": "0MaRMSt0000", "service": "snapshot"}
+2020-05-05T16:43:09.641742Z	info	Starting continuous query service	{"log_id": "0MaRMSt0000", "service": "continuous_querier"}
+2020-05-05T16:43:09.642644Z	info	Starting HTTP service	{"log_id": "0MaRMSt0000", "service": "httpd", "authentication": false}
+2020-05-05T16:43:09.642655Z	info	opened HTTP access log	{"log_id": "0MaRMSt0000", "service": "httpd", "path": "stderr"}
+2020-05-05T16:43:09.642889Z	info	Listening on HTTP	{"log_id": "0MaRMSt0000", "service": "httpd", "addr": "[::]:8086", "https": false}
+2020-05-05T16:43:09.655719Z	info	Starting retention policy enforcement service	{"log_id": "0MaRMSt0000", "service": "retention", "check_interval": "30m"}
+2020-05-05T16:43:09.663109Z	info	Listening for signals	{"log_id": "0MaRMSt0000"}
+2020-05-05T16:43:09.675206Z	info	Sending usage statistics to usage.influxdata.com	{"log_id": "0MaRMSt0000"}
+[httpd] ::1 - - [05/May/2020:18:46:43 +0200] "GET /ping HTTP/1.1" 204 0 "-" "InfluxDBShell/1.8.0" 00795960-8ef0-11ea-8001-7427ea641d41 249
+2020-05-05T16:53:09.611958Z	info	Cache snapshot (start)	{"log_id": "0MaRMSt0000", "engine": "tsm1", "trace_id": "0MaRwBQl000", "op_name": "tsm1_cache_snapshot", "op_event": "start"}
+2020-05-05T16:53:09.611968Z	info	Cache snapshot (start)	{"log_id": "0MaRMSt0000", "engine": "tsm1", "trace_id": "0MaRwBQl001", "op_name": "tsm1_cache_snapshot", "op_event": "start"}
+2020-05-05T16:53:09.775332Z	info	Snapshot for path written	{"log_id": "0MaRMSt0000", "engine": "tsm1", "trace_id": "0MaRwBQl000", "op_name": "tsm1_cache_snapshot", "path": "/home/sergimc/.influxdb/data/_internal/monitor/1", "duration": "163.404ms"}
+2020-05-05T16:53:09.775374Z	info	Cache snapshot (end)	{"log_id": "0MaRMSt0000", "engine": "tsm1", "trace_id": "0MaRwBQl000", "op_name": "tsm1_cache_snapshot", "op_event": "end", "op_elapsed": "163.434ms"}
+2020-05-05T16:53:09.786516Z	info	Snapshot for path written	{"log_id": "0MaRMSt0000", "engine": "tsm1", "trace_id": "0MaRwBQl001", "op_name": "tsm1_cache_snapshot", "path": "/home/sergimc/.influxdb/data/telegraf/autogen/2", "duration": "174.559ms"}
+2020-05-05T16:53:09.786546Z	info	Cache snapshot (end)	{"log_id": "0MaRMSt0000", "engine": "tsm1", "trace_id": "0MaRwBQl001", "op_name": "tsm1_cache_snapshot", "op_event": "end", "op_elapsed": "174.576m
+```
 
 Puesta la base de datos en marcha, abriremos otro terminal para generar y ejecutar consultas:
 

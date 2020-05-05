@@ -34,11 +34,11 @@ En primer lugar, deberemos instalar influxDB. Una vez instalado, pondremos en ma
 
 Para poner en marcha la base de datos influxDB, utilizaremos el siguiente comando:
 
-//imagen//
+![comandodb](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/comandodb.png)
 
 Puesta la base de datos en marcha, abriremos otro terminal para generar y ejecutar consultas:
 
-//imagen//
+![influx](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/influx.png)
 
 Debemos tener en cuenta que influxDB utiliza y escucha a través del puerto **8086**.
 

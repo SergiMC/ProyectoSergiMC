@@ -22,8 +22,8 @@ Dentro de las características de InfluxDB debemos de tener en cuenta una serie 
 * **Field:** Es el par clave-valor que almacena los valores de los datos y siempre están asociados a un timestamp.
 (Campos no indexados).
 * **Tag:** Es el par clave-valor que almacena valores de metadatos. (Campos indexados y almacenados como string) 
-* **Point:**
-* **Retention polity:**
+* **Point:** Es el conjunto de valores de campos y tags asociados a un timestamp. 
+* **Retention polity:** Describe durante cuanto tiempo mantiene influxDB los datos en la infraestructura, cantidad de copias  de seguridad crea y el tiempo asociado a los shard groups.
 * **Shard:**
 
 

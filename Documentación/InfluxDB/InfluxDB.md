@@ -121,6 +121,18 @@ Using database influx_1
 > 
 
 ```
+* Para insertar datos en la base de datos:
+
+```
+> INSERT virus,coronavirus=analisis infectados=1000,curados=500
+> select * from virus;
+name: virus
+time                coronavirus curados infectados
+----                ----------- ------- ----------
+1588704049069758884 analisis    500     1000
+> 
+
+```
 
 
 

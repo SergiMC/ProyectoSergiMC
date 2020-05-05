@@ -91,6 +91,7 @@ InfluxDB shell version: 1.8.0
 
 Debemos tener en cuenta que influxDB utiliza y escucha a través del puerto **8086**.
 
+##Comandos básicos en influxDB
 
 
 

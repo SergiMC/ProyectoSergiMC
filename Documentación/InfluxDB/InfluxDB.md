@@ -141,7 +141,16 @@ key
 coronavirus,virus=analisis
 ```
 
+* Para mostrar los measurements:
 
+```
+name: measurements
+name
+----
+coronavirus
+> 
+
+```
 
 
 

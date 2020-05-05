@@ -14,4 +14,16 @@ InfluxDB está compuesto por una serie de características:
 * La actualización de la base de datos esta restringida.
 * El uso de joins no está disponible entre tablas.
 
+Dentro de las características de InfluxDB debemos de tener en cuenta una serie de conceptos que forman influxDB:
+
+**Database:**
+**Measurement:**
+**Timestamp:**
+**Field:**
+**Tag:**
+**Point:**
+**Retention polity:**
+**Shard:**
+
+
 

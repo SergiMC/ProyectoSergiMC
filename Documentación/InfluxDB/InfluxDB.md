@@ -159,7 +159,17 @@ name: coronavirus
 tagKey
 ------
 virus
+```
+* Para mostrar los fields:
 
+```
+> show field keys
+name: coronavirus
+fieldKey   fieldType
+--------   ---------
+curados    float
+infectados float
+> 
 ```
 
 

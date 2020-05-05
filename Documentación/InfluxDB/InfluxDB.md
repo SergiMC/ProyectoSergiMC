@@ -32,7 +32,7 @@ Dentro de las características de InfluxDB debemos de tener en cuenta una serie 
 
 En primer lugar, deberemos instalar influxDB. Una vez instalado, pondremos en marcha la base de datos de influxDB a través de un terminal(consola).
 
-Para poner en marcha la base de datos influxDB, utilizaremos el siguiente comando:
+Para poner en marcha la base de datos influxDB, utilizaremos el siguiente comando: **./influxdb**
 
 ![comandodb](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/comandodb.png)
 

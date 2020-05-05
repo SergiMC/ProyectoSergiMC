@@ -28,6 +28,22 @@ Dentro de las características de InfluxDB debemos de tener en cuenta una serie 
 
 ## INFLUXDB (En Terminal)
 
+* Introducción (Uso de influxDB en terminal)
+
+En primer lugar, deberemos instalar influxDB. Una vez instalado, pondremos en marcha la base de datos de influxDB a través de un terminal(consola).
+
+Para poner en marcha la base de datos influxDB, utilizaremos el siguiente comando:
+
+//imagen//
+
+Puesta la base de datos en marcha, abriremos otro terminal para generar y ejecutar consultas:
+
+//imagen//
+
+Debemos tener en cuenta que influxDB utiliza y escucha a través del puerto **8086**.
+
+
+
 
 
 

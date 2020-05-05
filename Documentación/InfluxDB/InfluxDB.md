@@ -132,7 +132,14 @@ time                curados infectados virus
 1588704418238383729 500     1000       analisis
 >
 ```
+* Para mostrar las series que hemos creado:
 
+```
+> show series
+key
+---
+coronavirus,virus=analisis
+```
 
 
 

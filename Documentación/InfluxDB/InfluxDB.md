@@ -91,7 +91,37 @@ InfluxDB shell version: 1.8.0
 
 Debemos tener en cuenta que influxDB utiliza y escucha a través del puerto **8086**.
 
-##Comandos básicos en influxDB
+## Comandos básicos en influxDB
+
+Los comandos que se utilizan y los más usados en influxDB són los siguientes:
+
+* Para crear una base de datos:
+
+```
+> CREATE DATABASE influx_1
+```
+
+* Para mostrar las bases de datos creadas:
+
+```
+> show databases
+name: databases
+name
+----
+_internal
+telegraf
+influx_1
+```
+
+* Para usar/interaccionar con una base de datos:
+
+```
+> use influx_1
+Using database influx_1
+> 
+
+```
+
 
 
 

@@ -4,5 +4,14 @@ Telegraf es un servicio que tiene la función de recopilar,enviar métricas y da
 
 ## Características de Telegraf
 
+* Escrito en Go (lenguaje de programación). Se compila en un único binario sin dependencias externas.
+* Consumo mínimo de memoria.
+* Sistema de plugin que permite una fácil inserción de nuevos inputs y outputs.
+* Gran numero de plugins para la mayoría de los servicios mas populares y APIs.
+
+## Telegraf (En terminal)
+
+* Utilizaremos telegraf con los datos de CPU,RAM,DISK.
+
 
 

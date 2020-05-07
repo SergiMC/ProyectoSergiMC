@@ -9,7 +9,7 @@ Telegraf es un servicio que tiene la función de recopilar,enviar métricas y da
 * Sistema de plugin que permite una fácil inserción de nuevos inputs y outputs.
 * Gran numero de plugins para la mayoría de los servicios mas populares y APIs.
 
-## Telegraf (En terminal)
+## Uso de telegraf.
 
 * Utilizaremos telegraf con los plugins CPU,RAM,DISK para la visualización de los datos.
 

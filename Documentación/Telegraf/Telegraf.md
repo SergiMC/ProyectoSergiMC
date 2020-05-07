@@ -62,6 +62,7 @@ mem
 
 ```
 
+## Visualización de datos CPU,RAM,DISK
 
 
 

@@ -11,13 +11,13 @@ Telegraf es un servicio que tiene la función de recopilar,enviar métricas y da
 
 ## Uso de telegraf
 
-* Utilizaremos telegraf con los plugins **CPU**,**MEM**,**DISK** para la visualización de los datos.
+* Utilizaremos telegraf con los plugins **CPU**,**RAM(mem)**,**DISK** para la visualización de los datos.
 
 Debemos tener en cuenta que para el uso de telegraf, necesitaremos tener configurado y usando al mismo tiempo la base de datos influxDB por tal que recopile los datos del servicio telegraf y los pueda mostrar como (**OUTPUT**).
 
 En primer lugar deberemos tener instalado tanto influxDB como telegraf. Una vez hayamos instalado y configurado influxDB, pasaremos a activarlo, para todos estos pasos podemos consultar la documentación de influxDB: (link).
 
-Activado influxDB, configuraremos telegraf creando el fichero de configuración con los plugins en este caso **CPU**,**RAM**,**DISK** el cual pasará los datos a influxDB.
+Activado influxDB, configuraremos telegraf creando el fichero de configuración con los plugins en este caso **CPU**,**RAM(mem)**,**DISK** el cual pasará los datos a influxDB.
 
 ```
 [sergimc@192 Telegraf]$ ./telegraf -sample-config -input-filter cpu:mem:disk -output-filter influxDB > telegraf.conf
@@ -66,7 +66,7 @@ mem
 
 * **CPU**
 
-El plugin **CPU** ( Central processing unit) recoge las métricas del cpu estándar. Estas métricas generalmente se suelen encontrar en el directorio **/proc/cpuinfo**.
+El plugin **CPU** ( Central Processing Unit) recoge las métricas del cpu estándar. Estas métricas generalmente se suelen encontrar en el directorio **/proc/cpuinfo**.
 
 ```
 [sergimc@192 proc]$ cat /proc/cpuinfo 
@@ -98,7 +98,7 @@ address sizes	: 36 bits physical, 48 bits virtual
 power management:
 
 ```
-
+Este es el resultado de una consulta a la base de datos influxdb con los datos del plugin cpu.
 ```
 > select * from cpu;
 name: cpu
@@ -112,7 +112,45 @@ time                cpu       host          usage_guest usage_guest_nice usage_i
 
 ```
 
-* **MEM**
+* **RAM(mem)**
+
+El plugin **RAM** ( Random Acces Memory) recoge las métricas de la mem. Estas métricas generalmente se suelen encontrar en el directorio **/proc/meminfo**.
+
+```
+[sergimc@192 proc]$ cat /proc/meminfo 
+MemTotal:        7993064 kB
+MemFree:         3332348 kB
+MemAvailable:    5005488 kB
+Buffers:          180124 kB
+Cached:          2164796 kB
+SwapCached:            0 kB
+Active:          2548916 kB
+Inactive:        1733964 kB
+Active(anon):    1943368 kB
+Inactive(anon):   518612 kB
+Active(file):     605548 kB
+Inactive(file):  1215352 kB
+Unevictable:          16 kB
+Mlocked:              16 kB
+SwapTotal:       5242876 kB
+SwapFree:        5242876 kB
+Dirty:             11156 kB
+Writeback:             0 kB
+AnonPages:       1938144 kB
+Mapped:           731276 kB
+Shmem:            524028 kB
+Slab:             213868 kB
+SReclaimable:     143160 kB
+SUnreclaim:        70708 kB
+KernelStack:       14720 kB
+PageTables:        79348 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     9239408 kB
+
+```
+Este es el resultado de una consulta a la base de datos influxdb con los datos del plugin mem.
 
 ```
 > select * from mem;

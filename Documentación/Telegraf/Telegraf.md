@@ -68,6 +68,8 @@ mem
 
 El plugin **CPU** ( Central Processing Unit) recoge las métricas del cpu estándar. Estas métricas generalmente se suelen encontrar en el directorio **/proc/cpuinfo**.
 
+Resultado de consulta en cpuinfo.
+
 ```
 [sergimc@192 proc]$ cat /proc/cpuinfo 
 processor	: 0
@@ -115,6 +117,8 @@ time                cpu       host          usage_guest usage_guest_nice usage_i
 * **RAM(mem)**
 
 El plugin **RAM** ( Random Acces Memory) recoge las métricas de la mem. Estas métricas generalmente se suelen encontrar en el directorio **/proc/meminfo**.
+
+Resultado de consulta en meminfo.
 
 ```
 [sergimc@192 proc]$ cat /proc/meminfo 
@@ -169,7 +173,7 @@ time                active     available  available_percent  buffered  cached   
 
 El plugin **DISK** ( HDD "Hard Disk Drive") recoge las métricas del disco duro de nuestro sistema. Estas métricas generalmente se suelen encontrar en el directorio **/proc/self/mounts** y **/proc/diskstats**.
 
-Resultado de consulta en mounts:
+Resultado de consulta en mounts.
 
 ```
 [sergimc@192 proc]$ cat /proc/self/mounts
@@ -184,7 +188,7 @@ tmpfs /sys/fs/cgroup tmpfs ro,seclabel,nosuid,nodev,noexec,mode=755 0 0
 
 ```
 
-Resultado de consulta en diskstats:
+Resultado de consulta en diskstats.
 
 ```
 [sergimc@192 proc]$ cat /proc/diskstats

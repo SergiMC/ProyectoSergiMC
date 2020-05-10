@@ -167,6 +167,41 @@ time                active     available  available_percent  buffered  cached   
 
 * **DISK**
 
+El plugin **DISK** ( HDD "Hard Disk Drive") recoge las métricas del disco duro de nuestro sistema. Estas métricas generalmente se suelen encontrar en el directorio **/proc/self/mounts** y **/proc/diskstats**.
+
+Resultado de consulta en mounts:
+
+```
+[sergimc@192 proc]$ cat /proc/self/mounts
+sysfs /sys sysfs rw,seclabel,nosuid,nodev,noexec,relatime 0 0
+proc /proc proc rw,nosuid,nodev,noexec,relatime 0 0
+devtmpfs /dev devtmpfs rw,seclabel,nosuid,size=3984368k,nr_inodes=996092,mode=755 0 0
+securityfs /sys/kernel/security securityfs rw,nosuid,nodev,noexec,relatime 0 0
+tmpfs /dev/shm tmpfs rw,seclabel,nosuid,nodev 0 0
+devpts /dev/pts devpts rw,seclabel,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000 0 0
+tmpfs /run tmpfs rw,seclabel,nosuid,nodev,mode=755 0 0
+tmpfs /sys/fs/cgroup tmpfs ro,seclabel,nosuid,nodev,noexec,mode=755 0 0
+
+```
+
+Resultado de consulta en diskstats:
+
+```
+[sergimc@192 proc]$ cat /proc/diskstats
+   8       0 sda 238 0 17090 1765 0 0 0 0 0 772 1764
+   8       1 sda1 51 0 4216 586 0 0 0 0 0 443 585
+   8       2 sda2 46 0 4234 420 0 0 0 0 0 417 420
+   8       3 sda3 47 0 4184 514 0 0 0 0 0 506 514
+  11       0 sr0 0 0 0 0 0 0 0 0 0 0 0
+   8      16 sdb 51289 17950 2709764 1789691 29800 33005 1911504 23808841 0 366823 25685770
+   8      17 sdb1 117 19 8802 3867 3 0 24 67 0 3467 3933
+   8      18 sdb2 50 0 4456 2268 0 0 0 0 0 2246 2268
+   8      19 sdb3 51093 17931 2694386 1783207 29100 33005 1911480 23783026 0 351005 25653412
+
+```
+
+Este es el resultado de una consulta a la base de datos influxdb con los datos del plugin disk.
+
 ```
 > select * from disk;
 name: disk

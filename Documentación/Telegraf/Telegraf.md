@@ -1,6 +1,6 @@
 # Telegraf
 
-Telegraf es un servicio que tiene la función de recopilar,enviar métricas y datos de diferentes sistemas. Telegraf nos permite recopila datos del sistema el cual se está usando, datos como CPU,RAM,DISK. Puede recopilar datos tanto como INPUTS o OUTPUTS, un ejemplo son las base de datos o servicios. Telegraf proporciona una gran lista de plugins de entrada, un ejemplo sería Apache, dockers.
+Telegraf es un servicio que tiene la función de recopilar,enviar métricas y datos de diferentes sistemas. Telegraf nos permite recopila datos del sistema el cual se está usando, datos como CPU,MEM,DISK. Puede recopilar datos tanto como INPUTS o OUTPUTS, un ejemplo son las base de datos o servicios. Telegraf proporciona una gran lista de plugins de entrada, un ejemplo sería Apache, dockers.
 
 ## Características de Telegraf
 
@@ -11,7 +11,7 @@ Telegraf es un servicio que tiene la función de recopilar,enviar métricas y da
 
 ## Uso de telegraf
 
-* Utilizaremos telegraf con los plugins **CPU**,**RAM**,**DISK** para la visualización de los datos.
+* Utilizaremos telegraf con los plugins **CPU**,**MEM**,**DISK** para la visualización de los datos.
 
 Debemos tener en cuenta que para el uso de telegraf, necesitaremos tener configurado y usando al mismo tiempo la base de datos influxDB por tal que recopile los datos del servicio telegraf y los pueda mostrar como (**OUTPUT**).
 
@@ -62,5 +62,43 @@ mem
 
 ```
 
-## Visualización de datos CPU,RAM,DISK
+## Visualización de datos CPU,MEM,DISK
 
+* CPU
+
+```
+> select * from cpu;
+name: cpu
+time                cpu       host          usage_guest usage_guest_nice usage_idle         usage_iowait        usage_irq            usage_nice           usage_softirq        usage_steal usage_system        usage_user
+----                ---       ----          ----------- ---------------- ----------         ------------        ---------            ----------           -------------        ----------- ------------        ----------
+1588175570000000000 cpu-total 192.168.1.139 0           0                87.79260005034445  0.251698968034268   0.2265290712307804   0                    0.20135917442738221  0           1.5605336018121183  9.967279134154838
+1588175570000000000 cpu0      192.168.1.139 0           0                87.43718592964916  0                   0.40201005025121833  0                    0.402010050251254    0           1.4070351758792998  10.351758793968818
+1588175570000000000 cpu1      192.168.1.139 0           0                86.89516129032761  0.5040322580647194  0.20161290322583764  0                    0.20161290322583764  0           1.814516129032503   10.38306451613173
+1588175570000000000 cpu2      192.168.1.139 0           0                88.51963746223974  0.6042296072508712  0.1007049345418059   0                    0.1007049345418059   0           1.6112789526690374  9.063444108762495
+1588175570000000000 cpu3      192.168.1.139 0           0                88.22937625754514  0                   0.20120724346075     0                    0.10060362173038392  0           1.4084507042252856  10.0
+
+
+```
+
+* MEM
+
+```
+> select * from mem;
+name: mem
+time                active     available  available_percent  buffered  cached     commit_limit committed_as dirty    free       high_free high_total host          huge_page_size huge_pages_free huge_pages_total inactive   low_free low_total mapped    page_tables shared    slab      sreclaimable sunreclaim swap_cached swap_free  swap_total total      used       used_percent       vmalloc_chunk vmalloc_total  vmalloc_used wired write_back write_back_tmp
+----                ------     ---------  -----------------  --------  ------     ------------ ------------ -----    ----       --------- ---------- ----          -------------- --------------- ---------------- --------   -------- --------- ------    ----------- ------    ----      ------------ ---------- ----------- ---------  ---------- -----      ----       ------------       ------------- -------------  ------------ ----- ---------- --------------
+1588175560000000000 2804760576 4893196288 59.783232062197925 102264832 2874912768 9461153792   11322458112  3190784  2775810048 0         0          192.168.1.139 2097152        0               0                2254749696 0        0         803504128 83210240    588853248 178483200 104693760    73789440   0           5368705024 5368705024 8184897536 2431909888 29.71216044310417  0             35184372087808 0            0     0          0
+1588175570000000000 2803679232 4894461952 59.7986954689716   102289408 2860335104 9461153792   11332362240  6381568  2791559168 0         0          192.168.1.139 2097152        0               0                2240307200 0        0         803872768 83226624    588853248 178348032 104558592    73789440   0           5368705024 5368705024 8184897536 2430713856 29.69754777391999  0             35184372087808 0            0     0          0
+1588175580000000000 2812022784 4886130688 59.69690721855849  102436864 2863190016 9461153792   11341574144  8228864  2780291072 0         0          192.168.1.139 2097152        0               0                2243162112 0        0         804036608 83271680    588918784 178343936 104558592    73785344   0           5368705024 5368705024 8184897536 2438979584 29.798535330131223 0             35184372087808 0            0     0          0
+1588175590000000000 2816708608 4881776640 59.64371109752155  102486016 2864705536 9461153792   11341574144  8282112  2774306816 0         0          192.168.1.139 2097152        0               0                2244677632 0        0         804036608 83292160    588853248 178343936 104558592    73785344   0           5368705024 5368705024 8184897536 2443399168 29.852532145370034 0             35184372087808 0            0     0          0
+1588175600000000000 2816270336 4882448384 59.65191821309075  102510592 2865987584 9461153792   11341574144  6266880  2773671936 0         0          192.168.1.139 2097152        0               0                2245955584 0        0         804298752 83283968    588853248 178348032 104558592    73789440   0           5368705024 5368705024 8184897536 2442727424 29.84432502980084  0             35184372087808 0            0     0          0
+
+
+```
+
+* DISK
+
+```
+
+
+```

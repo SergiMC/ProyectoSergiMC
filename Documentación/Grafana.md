@@ -20,13 +20,15 @@ Grafana está compuesto por una serie de características:
 * Grafana permite crear alertas de seguridad en los casos que necesitemos o nos sea útil.
 * Grafana nos ayuda a rastrear el comportamiento del usuario, de la aplicación y de los errores.
 
-## Tableros de Grafana
+## Paneles de Grafana y el dashboard.
 
 ![Tablerografana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/TableroGrafanaEj.png)
 
-Los tableros extraen los datos de la base de datos que hemos insertado, ya sea de **MySQL**, **PostgresSQL**, **influxDB**, etc.
+Un dashboard es el conjunto de paneles creados en grafana. Cada dashboard puede estar compuesto por más de un panel personalizado y con distintos datos.
 
-Los paneles contienen una cantidad de opciones de visualización como mapas geográficos, mapas térmicos, histogramas, en general son los tipos de visualización que una empresa requiere para los estudios de los datos.
+Un panel es el bloque de construcción básico para la visualización de los datos, los paneles extraen los datos de la base de datos que hemos insertado, ya sea de **MySQL**, **PostgresSQL**, **influxDB**, etc.
+
+Estos paneles ontienen una cantidad de opciones de visualización como mapas geográficos, mapas térmicos, histogramas, en general son los tipos de visualización que una empresa requiere para los estudios de los datos.
 
 
 ## Ficheros de Grafana importantes.
@@ -50,7 +52,7 @@ Una vez instalado grafana, pondremos en marcha el servidor y iremos a nuestro na
 
 ![portalgrafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/portalGrafana.png)
 
-Iniciado grafana, nos redigrigirá a su pantalla inicial formada por un dashboard que utiliza por defecto, indicando las tareas que debemos seguir para su correcto funcionamiento.
+Iniciado grafana, nos redigrigirá a su pantalla inicial formada por un panel que utiliza por defecto, indicando las tareas que debemos seguir para su correcto funcionamiento.
 
 Estas tareas están formadas por : *Instalar Grafana*, *Añadir una fuente de datos*, *Crear nuestro dashboard*, *Añadir a usuarios*, *El uso de plug-ins*.
 

@@ -52,7 +52,7 @@ Una vez instalado grafana, pondremos en marcha el servidor y iremos a nuestro na
 
 ![portalgrafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/portalGrafana.png)
 
-Iniciado grafana, nos redigrigirá a su pantalla inicial formada por un panel que utiliza por defecto, indicando las tareas que debemos seguir para su correcto funcionamiento.
+Iniciado grafana, nos redigrigirá a su pantalla inicial formada por un dashboard que utiliza por defecto, indicando las tareas que debemos seguir para su correcto funcionamiento.
 
 Estas tareas están formadas por : *Instalar Grafana*, *Añadir una fuente de datos*, *Crear nuestro dashboard*, *Añadir a usuarios*, *El uso de plug-ins*.
 
@@ -85,11 +85,11 @@ Método desde la barra de configuración:
 
 ![dashboard2grafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/crear1.png)
 
-Una vez queramos crear un dashboard, tendremos 2 opciones, crear una query o elegir un tipo de gráfico. Si elegimos crear una query, directamente utilizaremos el dashboard predeterminado, si elegimos la opción de que tipo de gráfico elegir, tendremos varias opciones:
+Una vez queramos crear un panel, tendremos 2 opciones, crear una query o elegir un tipo de gráfico. Si elegimos crear una query, directamente utilizaremos el panel predeterminado, si elegimos la opción de que tipo de gráfico elegir, tendremos varias opciones:
 
 ![graficosgrafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/tiposgraficos.png)
 
-Elegido y configuado el dashboard, deberemos hacer una consulta escogiendo los datos y campos que necesitemos. Por ejemplo ver el disco libre que tenemos:
+Elegido y configuado el panel,deberemos hacer una consulta escogiendo los datos y campos que necesitemos. Por ejemplo ver el disco libre que tenemos:
 
 ![querygrafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/query.png)
 

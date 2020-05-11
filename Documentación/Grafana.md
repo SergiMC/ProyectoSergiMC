@@ -24,7 +24,7 @@ Grafana está compuesto por una serie de características:
 
 ![Tablerografana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/TableroGrafanaEj.png)
 
-Un dashboard es el conjunto de paneles creados en grafana. Cada dashboard puede estar compuesto por más de un panel personalizado y con distintos datos.
+Un dashboard es un cuadro formado por un conjunto de paneles creados en grafana. Cada dashboard puede estar compuesto por más de un panel personalizado y con distintos datos.
 
 Un panel es el bloque de construcción básico para la visualización de los datos, los paneles extraen los datos de la base de datos que hemos insertado, ya sea de **MySQL**, **PostgresSQL**, **influxDB**, etc.
 

@@ -116,6 +116,9 @@ time                cpu       host          usage_guest usage_guest_nice usage_i
 1588175570000000000 cpu3      192.168.1.139 0           0                88.22937625754514  0                   0.20120724346075     0                    0.10060362173038392  0           1.4084507042252856  10.0
 
 ```
+Visualización de los datos en un panel de grafana.
+
+![cpuinflux](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/cpuinflux.png)
 
 * **RAM**
 

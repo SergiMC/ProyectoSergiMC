@@ -120,6 +120,8 @@ Visualización de los datos de cpu en un panel de grafana en un rango de 15 minu
 
 ![cpuinflux](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/cpuinflux.png)
 
+*El panel muestra los rangos de nivel que alcanza la cpu en cada minuto*. 
+
 * **RAM**
 
 La memoria RAM es la memoria principal de un dispositivo,se almacenan de forma temporal los datos de los programas que se están utilizando en este momento.
@@ -181,6 +183,8 @@ Visualización de los datos de RAM en un panel de grafana en un rango de 15 minu
 
 ![memoriainflux](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/memoriainflux.png)
 
+*El panel muestra el espacio libre de memoria que tenemos*. 
+
 * **DISK**
 
 La unidad de Disco Duro ( HDD "Hard Disk Drive") es un dispositivo magnético que almacena todos los programas y datos del sistema.
@@ -236,3 +240,5 @@ time                device free         fstype  host          inodes_free inodes
 Visualización de los datos de disco en un panel de grafana en un rango de 15 minutos.
 
 ![diskinflux](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/diskinflux.png)
+
+*El panel muestra el espacio libre de disco duro que tenemos*. 

@@ -29,7 +29,8 @@ Dentro de las características de InfluxDB debemos de tener en cuenta una serie 
 ## Estructuración y almacenamiento de los datos en influxDB
 
 * **Line Protocol**
- Es el formato de texto que utiliza InfluxDB para almacenar los datos en la base de datos.
+
+Es el formato de texto que utiliza InfluxDB para almacenar los datos en la base de datos.
 
 
 

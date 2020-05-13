@@ -39,6 +39,11 @@ Dentro de las características de InfluxDB debemos de tener en cuenta una serie 
   |measurement|,tag_set| |field_set| |timestamp|
   +-----------+--------+-+---------+-+---------+
   ```
+  Crearemos un ejemplo de datos que más adelante insertaremos en la base de datos.
+  
+  ```
+  host_datos,host=host01 cpu_uso=30,mem_uso=40,disco_uso=50 1456738900000000000
+  ```
   
 
 

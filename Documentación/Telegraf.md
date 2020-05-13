@@ -235,4 +235,4 @@ time                device free         fstype  host          inodes_free inodes
 
 Visualización de los datos de disco en un panel de grafana en un rango de 15 minutos.
 
-![diskinflux](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/diskainflux.png)
+![diskinflux](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/diskinflux.png)

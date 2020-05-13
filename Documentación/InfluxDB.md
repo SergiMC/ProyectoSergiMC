@@ -45,8 +45,26 @@ Dentro de las características de InfluxDB debemos de tener en cuenta una serie 
   host_datos,host=host01 cpu_usage=30,mem_usage=60,disk_usage=50 1456738900000000000
   ```
   
+* **Measurement** 
 
+    Indica el nombre del measurement donde se van a guardar los datos.
+    
+    En nuestro ejemplo:
+    
+    ```
+    host_datos
+    ```
 
+* **Tag Set**
+    
+    Elemento opcional que representa los tags asociados a los datos. 
+    Los tags son separados por comas sin espacios y se indican en el formato.
+  
+
+* **Field Set**
+
+* **Timestamp**
+  
 
 
 

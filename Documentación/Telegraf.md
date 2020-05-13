@@ -116,7 +116,7 @@ time                cpu       host          usage_guest usage_guest_nice usage_i
 1588175570000000000 cpu3      192.168.1.139 0           0                88.22937625754514  0                   0.20120724346075     0                    0.10060362173038392  0           1.4084507042252856  10.0
 
 ```
-Visualización de los datos de cpu en un panel de grafana junto a la query utilizada en un rango de 15 minutos.
+Visualización de los datos de cpu en un panel de grafana en un rango de 15 minutos.
 
 ![cpuinflux](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/cpuinflux.png)
 
@@ -177,7 +177,7 @@ time                active     available  available_percent  buffered  cached   
 
 ```
 
-Visualización de los datos de RAM en un panel de grafana junto a la query utilizada en un rango de 15 minutos.
+Visualización de los datos de RAM en un panel de grafana en un rango de 15 minutos.
 
 ![memoriainflux](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/memoriainflux.png)
 
@@ -232,3 +232,7 @@ time                device free         fstype  host          inodes_free inodes
 1588175560000000000 sdc1   27295731712  fuseblk 192.168.1.139 26714426    26721524     7098        rw   /run/media/sergimc/sergilolg 31328301056  4032569344  12.871969459153554
 
 ```
+
+Visualización de los datos de disco en un panel de grafana en un rango de 15 minutos.
+
+![diskinflux](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/diskainflux.png)

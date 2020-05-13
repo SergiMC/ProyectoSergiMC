@@ -62,7 +62,7 @@ mem
 
 ```
 
-## Visualización de datos CPU,MEM,DISK
+## Visualización de datos CPU,RAM,DISK
 
 * **CPU**
 La CPU ( Central Processing Unit) es la parte central de cualquier dispositivo, es la que procesa de todas las funciones y también se encarga de la almacenación de toda la información.

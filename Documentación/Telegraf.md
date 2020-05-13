@@ -171,7 +171,9 @@ time                active     available  available_percent  buffered  cached   
 
 * **DISK**
 
-El plugin **DISK** ( HDD "Hard Disk Drive") recoge las métricas del disco duro de nuestro sistema. Estas métricas generalmente se suelen encontrar en el directorio **/proc/self/mounts** y **/proc/diskstats**.
+La unidad de Disco Duro ( HDD "Hard Disk Drive") es un dispositivo magnético que almacena todos los programas y datos del sistema.
+
+El plugin **DISK** recopila las métricas del disco duro de nuestro sistema. Estas métricas generalmente se suelen encontrar en el directorio **/proc/self/mounts** y **/proc/diskstats**. Los datos que recopila, contienen los dispositivos que están conectados en nuestro sistema y la información de cada disco.
 
 Resultado de consulta en mounts.
 

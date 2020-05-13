@@ -26,6 +26,15 @@ Dentro de las características de InfluxDB debemos de tener en cuenta una serie 
 * **Retention polity:** Describe durante cuanto tiempo mantiene influxDB los datos en la infraestructura, cantidad de copias  de seguridad crea y el tiempo asociado a los shard groups.
 * **Shard:** Contiene los datos comprimidos y codificados que se guardan en un archivo del disco del servidor. Cada shard pertenece a un solo grupo de shard.
 
+## Estructuración y almacenamiento de los datos en influxDB
+
+* **Line Protocol**
+ Es el formato de texto que utiliza InfluxDB para almacenar los datos en la base de datos.
+
+
+
+
+
 ## InfluxDB (En Terminal)
 
 * Introducción (Uso de influxDB en terminal)
@@ -91,17 +100,17 @@ InfluxDB shell version: 1.8.0
 
 Debemos tener en cuenta que influxDB utiliza y escucha a través del puerto **8086**.
 
-## Comandos básicos en influxDB
+## El uso de comandos en influxDB
 
-Los comandos que se utilizan y los más usados en influxDB són los siguientes:
+Los comandos que se utilizan y los más usados en influxDB:
 
-* Para crear una base de datos:
+* CREATE DATABASE: Para crear una base de datos
 
 ```
-> CREATE DATABASE influx_1
+> CREATE DATABASE hostnames
 ```
 
-* Para mostrar las bases de datos creadas:
+* show databases : Para mostrar las bases de datos creadas.
 
 ```
 > show databases
@@ -110,18 +119,24 @@ name
 ----
 _internal
 telegraf
-influx_1
+hostnames
 ```
 
-* Para usar/interaccionar con una base de datos:
+* Use: Para usar/interaccionar con una base de datos.
 
 ```
-> use influx_1
-Using database influx_1
+> use hostnames
+Using database hostnames
 > 
 
 ```
-* Para insertar datos en la base de datos:
+
+
+
+
+
+
+* INSERT Para insertar datos en la base de datos:
 
 ```
 > INSERT coronavirus,virus=analisis infectados=1000,curados=500

@@ -9,7 +9,7 @@ Telegraf es un servicio que tiene la función de recopilar,enviar métricas y da
 * Sistema de plugin que permite una fácil inserción de nuevos inputs y outputs.
 * Gran numero de plugins para la mayoría de los servicios mas populares y APIs.
 
-## Uso de telegraf
+## Uso de telegraf y configuración
 
 * Utilizaremos telegraf con los plugins **CPU**,**RAM**,**DISK** para la visualización de los datos.
 
@@ -18,6 +18,8 @@ Debemos tener en cuenta que para el uso de telegraf, necesitaremos tener configu
 En primer lugar deberemos tener instalado tanto influxDB como telegraf. Una vez hayamos instalado y configurado influxDB, pasaremos a activarlo, para todos estos pasos podemos consultar la documentación de influxDB: (link).
 
 Activado influxDB, configuraremos telegraf creando el fichero de configuración con los plugins en este caso **CPU**,**RAM**,**DISK** el cual pasará los datos a influxDB.
+
+El directorio de configuración de telegraf se ubica en : **/etc/telegraf/**.
 
 ```
 [sergimc@192 Telegraf]$ ./telegraf -sample-config -input-filter cpu:mem:disk -output-filter influxDB > telegraf.conf

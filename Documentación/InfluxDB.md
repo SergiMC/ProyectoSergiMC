@@ -31,6 +31,15 @@ Dentro de las características de InfluxDB debemos de tener en cuenta una serie 
 * **Line Protocol**
 
   Es el formato de texto que utiliza InfluxDB para almacenar los datos en la base de datos.
+  
+  Sintaxis:
+  
+  ```
+  +-----------+--------+-+---------+-+---------+
+  |measurement|,tag_set| |field_set| |timestamp|
+  +-----------+--------+-+---------+-+---------+
+  ```
+  
 
 
 

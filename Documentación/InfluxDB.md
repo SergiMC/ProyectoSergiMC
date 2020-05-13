@@ -57,11 +57,32 @@ Dentro de las características de InfluxDB debemos de tener en cuenta una serie 
 
 * **Tag Set**
     
-    Elemento opcional que representa los tags asociados a los datos. 
-    Los tags son separados por comas sin espacios y se indican en el formato.
+    Elemento opcional que representa los tags asociados a los datos.Los tags son separados por comas sin espacios.
+    
+    ```
+    <tag_key>=<tag_value>,<tag_key>=<tag_value>
+    ```
+    
+    En nuestro ejemplo solo tenemos 1 tag:
+    
+    ```
+    host=host01
+    
+    ```
   
 
 * **Field Set**
+    
+    Elemento donde se indican los datos seguidos de este formato.
+    
+    ```
+    <field_key>=<field_value>,<field_key>=<field_value> 
+    ```
+    En nuestro ejemplo:
+    
+    ```
+    cpu_usage=30,mem_usage=60,disk_usage=50
+    ```
 
 * **Timestamp**
   

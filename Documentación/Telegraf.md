@@ -177,6 +177,10 @@ time                active     available  available_percent  buffered  cached   
 
 ```
 
+Visualización de los datos de RAM en un panel de grafana junto a la query utilizada en un rango de 15 minutos.
+
+![memoriainflux](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/memoriainflux.png)
+
 * **DISK**
 
 La unidad de Disco Duro ( HDD "Hard Disk Drive") es un dispositivo magnético que almacena todos los programas y datos del sistema.

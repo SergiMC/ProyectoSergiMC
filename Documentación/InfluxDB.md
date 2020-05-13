@@ -67,7 +67,6 @@ Dentro de las características de InfluxDB debemos de tener en cuenta una serie 
     
     ```
     host=host01
-    
     ```
   
 
@@ -85,9 +84,14 @@ Dentro de las características de InfluxDB debemos de tener en cuenta una serie 
     ```
 
 * **Timestamp**
-  
 
-
+   Es un campo opcional, en caso de no especificar, InfluxDB utiliza el timestamp del servidor. Puede utilizarse                microsegundos, milisegundos o segundos.
+   
+   En nuestro ejemplo:
+   
+   ```
+   1456738900000000000
+   ```
 
 ## InfluxDB (En Terminal)
 

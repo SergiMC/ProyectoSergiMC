@@ -114,7 +114,8 @@ time                cpu       host          usage_guest usage_guest_nice usage_i
 
 ```
 
-* **RAM(mem)**
+* **RAM**
+La memoria RAM es la memoria principal de un dispositivo,se almacenan de forma temporal los datos de los programas que se están utilizando en este momento.
 
 El plugin **RAM** ( Random Acces Memory) recoge las métricas de la mem. Estas métricas generalmente se suelen encontrar en el directorio **/proc/meminfo**.
 

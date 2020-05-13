@@ -65,8 +65,9 @@ mem
 ## Visualización de datos CPU,MEM,DISK
 
 * **CPU**
+La CPU ( Central Processing Unit) es la parte central de cualquier dispositivo, es la que procesa de todas las funciones y también se encarga de la almacenación de toda la información.
 
-El plugin **CPU** ( Central Processing Unit) recoge las métricas del cpu estándar. Estas métricas generalmente se suelen encontrar en el directorio **/proc/cpuinfo**.
+El plugin **CPU** recoge las métricas del cpu estándar. Estas métricas generalmente se suelen encontrar en el directorio **/proc/cpuinfo**.
 
 Resultado de consulta en cpuinfo.
 

@@ -234,3 +234,7 @@ cpu_usage  float
 disk_usage float
 mem_usage  float
 ```
+
+## Método de interfaz API
+
+

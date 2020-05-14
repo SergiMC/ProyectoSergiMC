@@ -189,60 +189,36 @@ Using database hostnames
 
 ```
 
-
-
-
-
-
 * INSERT Para insertar datos en la base de datos:
 
 ```
-> INSERT coronavirus,virus=analisis infectados=1000,curados=500
-> select * from coronavirus;
-name: coronavirus
-time                curados infectados virus
-----                ------- ---------- -----
-1588704418238383729 500     1000       analisis
->
+host_datos,host=host01 cpu_usage=30,mem_usage=60,disk_usage=50 1456738900000000000
+
+
 ```
 * Para mostrar las series que hemos creado:
 
 ```
 > show series
-key
----
-coronavirus,virus=analisis
+
 ```
 
 * Para mostrar los measurements:
 
 ```
-name: measurements
-name
-----
-coronavirus
-> 
+
 
 ```
 * Para mostrar las tag-keys:
 
 ```
 > show tag keys
-name: coronavirus
-tagKey
-------
-virus
+
 ```
 * Para mostrar los fields:
 
 ```
-> show field keys
-name: coronavirus
-fieldKey   fieldType
---------   ---------
-curados    float
-infectados float
-> 
+
 ```
 
 

@@ -202,6 +202,35 @@ time                cpu_usage disk_usage host   mem_usage
 1456738900000000000 30        50         host01 60
 ```
 
+## Comandos de los conceptos de los datos.
 
+* Show series:
 
+```
+> show series
+key
+---
+host_datos,host=host01
+```
 
+* Show tag keys:
+
+```
+> show tag keys
+name: host_datos
+tagKey
+------
+host
+```
+
+* Show field keys:
+
+```
+> show field keys
+name: host_datos
+fieldKey   fieldType
+--------   ---------
+cpu_usage  float
+disk_usage float
+mem_usage  float
+```

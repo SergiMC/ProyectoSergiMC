@@ -202,9 +202,9 @@ time                cpu_usage disk_usage host   mem_usage
 1456738900000000000 30        50         host01 60
 ```
 
-## Comandos de los conceptos de los datos.
+## Comandos de los conceptos de los datos
 
-* Show series:
+* Show series: Muestra la información de la serie.
 
 ```
 > show series
@@ -213,7 +213,7 @@ key
 host_datos,host=host01
 ```
 
-* Show tag keys:
+* Show tag keys: Muestra la información de las keys asociadas
 
 ```
 > show tag keys
@@ -223,7 +223,7 @@ tagKey
 host
 ```
 
-* Show field keys:
+* Show field keys: Muestra la información de los tipos de campo que tienen las keys.
 
 ```
 > show field keys

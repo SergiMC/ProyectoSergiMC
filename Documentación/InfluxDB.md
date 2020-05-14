@@ -187,12 +187,12 @@ hostnames
 Using database hostnames
 ```
 
-* INSERT: Para insertar datos en la base de datos:
+* Insert: Para insertar datos en la base de datos:
 
 ```
 INSERT host_datos,host=host01 cpu_usage=30,mem_usage=60,disk_usage=50 1456738900000000000
 ```
-* SELECT: Para mostrar los datos que hemos introducido.
+* Select: Para mostrar los datos que hemos introducido.
 
 ```
 > select * from host_datos

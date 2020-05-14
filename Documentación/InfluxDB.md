@@ -171,21 +171,13 @@ Los comandos que se utilizan y los más usados en influxDB:
 * show databases : Para mostrar las bases de datos creadas.
 
 ```
-> show databases
-name: databases
-name
-----
-_internal
-telegraf
-hostnames
+
 ```
 
 * Use: Para usar/interaccionar con una base de datos.
 
 ```
-> use hostnames
-Using database hostnames
-> 
+
 
 ```
 
@@ -193,13 +185,10 @@ Using database hostnames
 
 ```
 host_datos,host=host01 cpu_usage=30,mem_usage=60,disk_usage=50 1456738900000000000
-
-
 ```
 * Para mostrar las series que hemos creado:
 
 ```
-> show series
 
 ```
 
@@ -212,7 +201,7 @@ host_datos,host=host01 cpu_usage=30,mem_usage=60,disk_usage=50 14567389000000000
 * Para mostrar las tag-keys:
 
 ```
-> show tag keys
+
 
 ```
 * Para mostrar los fields:

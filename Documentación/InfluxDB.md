@@ -171,44 +171,37 @@ Los comandos que se utilizan y los más usados en influxDB:
 * show databases : Para mostrar las bases de datos creadas.
 
 ```
-
+> show databases
+name: databases
+name
+----
+_internal
+telegraf
+hostnames
 ```
 
 * Use: Para usar/interaccionar con una base de datos.
 
 ```
-
-
+> use hostnames
+Using database hostnames
 ```
 
-* INSERT Para insertar datos en la base de datos:
+* INSERT: Para insertar datos en la base de datos:
 
 ```
-host_datos,host=host01 cpu_usage=30,mem_usage=60,disk_usage=50 1456738900000000000
+INSERT host_datos,host=host01 cpu_usage=30,mem_usage=60,disk_usage=50 1456738900000000000
 ```
-* Para mostrar las series que hemos creado:
-
-```
+* SELECT: Para mostrar los datos que hemos introducido.
 
 ```
-
-* Para mostrar los measurements:
-
+> select * from host_datos
+name: host_datos
+time                cpu_usage disk_usage host   mem_usage
+----                --------- ---------- ----   ---------
+1456738900000000000 30        50         host01 60
 ```
 
-
-```
-* Para mostrar las tag-keys:
-
-```
-
-
-```
-* Para mostrar los fields:
-
-```
-
-```
 
 
 

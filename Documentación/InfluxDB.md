@@ -235,6 +235,36 @@ disk_usage float
 mem_usage  float
 ```
 
-## Método de interfaz API
+## Método de consulta con interfaz HTTP API
+
+El HTTP API es uno de los métodos de acceso y el medio principal para consultar y escribir datos en InfluxDB.
+El método de consulta con HTTP API suele realizarse con *CURL*, una herramienta de línea de comando que transfiere
+datos mediante **URL**.
+
+* Uso de Comandos
+
+    * Crear una base de datos
+      ```
+      curl -i -XPOST http://localhost:8086/query --data-urlencode "q=CREATE DATABASE hosts_curl"
+      ```
+      Resultado:
+      ```
+      HTTP/1.1 200 OK
+      Content-Type: application/json
+      Request-Id: 1a71ba0e-976b-11ea-8001-7427ea641d41
+      X-Influxdb-Build: OSS
+      X-Influxdb-Version: 1.8.0
+      X-Request-Id: 1a71ba0e-976b-11ea-8001-7427ea641d41
+      Date: Sat, 16 May 2020 11:48:04 GMT
+      Transfer-Encoding: chunked
+
+      {"results":[{"statement_id":0}]}
+      ```
+
+
+
+    
+
+
 
 

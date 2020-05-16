@@ -271,8 +271,29 @@ datos mediante **URL**.
     
     * Insertar datos mediante un fichero
     
-
+      Datos del fichero:
+      
+      ```
+      cat inserthosts.txt 
+      host_datos,host=host02 cpu_usage=60,mem_usage=50,disk_usage=60 1456738900000000000
+      host_datos,host=host03 cpu_usage=50,mem_usage=30,disk_usage=30 1456738900000000000
+      host_datos,host=host04 cpu_usage=30,mem_usage=30,disk_usage=40 1456738900000000000
+      ```
     
+      ```
+      curl -i -XPOST 'http://localhost:8086/write?db=hosts_curl' --data-binary @inserthosts.txt
+      ```
+      Resultado de los dos inserts:
+      
+      ```
+      HTTP/1.1 204 No Content
+      Content-Type: application/json
+      Request-Id: 2d6f16a7-9770-11ea-8023-7427ea641d41
+      X-Influxdb-Build: OSS
+      X-Influxdb-Version: 1.8.0
+      X-Request-Id: 2d6f16a7-9770-11ea-8023-7427ea641d41
+      Date: Sat, 16 May 2020 12:24:24 GMT 
+      ```
 
 
 

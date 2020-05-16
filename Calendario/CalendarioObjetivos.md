@@ -7,9 +7,10 @@
 27/04/2020 - 01/05/2020 | Instalación grafana/uso       | 6 horas. 
 04/05/2020 - 05/05/2020 | Documentación influxDB        | 3 horas.
 05/05/2020              | Instalación influxDB/uso      | 1 hora.   
-Por determinar          | Documentación telegraf        |
-Por determinar          | Instalación telegraf          |
-Por determinar          | Documentación Docker grafana  |
+08/05/2020 - 11/05/2020 | Documentación telegraf        | 4 horas
+11/05/2020              | Instalación telegraf          | 1 hora
+12/05/2020 - 15/05/2020 | Correción de datos Grf/inf/tel| 7 horas.                        |
+16/05/2020              | Documentación Docker grafana  |
 Por determinar          | Implementación en Docker      |
 
 Estos son los objetivos que tengo en mente de momento, solo es un borrador ya que pueden haber mas o pueden ser modificados.

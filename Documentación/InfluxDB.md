@@ -279,7 +279,8 @@ datos mediante **URL**.
       host_datos,host=host03 cpu_usage=50,mem_usage=30,disk_usage=30 1456738900000000000
       host_datos,host=host04 cpu_usage=30,mem_usage=30,disk_usage=40 1456738900000000000
       ```
-    
+      Insert:
+      
       ```
       curl -i -XPOST 'http://localhost:8086/write?db=hosts_curl' --data-binary @inserthosts.txt
       ```

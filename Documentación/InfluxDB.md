@@ -304,5 +304,38 @@ InfluxDB proporciona tres respuestas HTTP:
 * 4xx: InfluxDB no pudo entender la solicitud.
 * 5xx: el sistema está sobrecargado o tiene problemas importantes.
 
+## Diferencias entre InfluxDB y base de datos SQL
 
+InfluxDB está especialmente diseñado para datos de serie temporales, respecto a SQL, pueden trabajar con
+datos de serie temporal, pero no están optimizadas para trabajar con una gran carga de datos de serie temporal.
+En cambio, influxDB está diseñado para guardar grandes volúmenes de datos de serie temporal y realizar análisis 
+rápidos en tiempo real.
 
+* Terminología
+
+  SQL proporciona el estilo de tablas:
+  
+  ```
+    +---------+---------+---------------------+--------------+
+    | park_id | planet  | time                | #_foodships  |
+    +---------+---------+---------------------+--------------+
+    |       1 | Earth   | 1429185600000000000 |            0 |
+    |       1 | Earth   | 1429185601000000000 |            3 |
+    |       1 | Earth   | 1429185602000000000 |           15 |
+    |       1 | Earth   | 1429185603000000000 |           15 |
+    |       2 | Saturn  | 1429185600000000000 |            5 |
+    |       2 | Saturn  | 1429185601000000000 |            9 |
+  
+  ```
+  En influxDB, se proporciona de diferente manera:
+  
+  ```
+    name: foodships
+    tags: park_id=1, planet=Earth
+    time			               #_foodships
+    ----			               ------------
+    2015-04-16T12:00:00Z	 0
+    2015-04-16T12:00:01Z	 3
+    2015-04-16T12:00:02Z	 15
+    2015-04-16T12:00:03Z	 15  
+  ```

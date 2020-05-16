@@ -298,6 +298,8 @@ datos mediante **URL**.
 
 ## Resultado de respuestas HTTP
 
+InfluxDB proporciona tres respuestas HTTP:
+
 * 2xx: Si recibió su solicitud de escritura HTTP 204 No Content, ¡Todo Ok!
 * 4xx: InfluxDB no pudo entender la solicitud.
 * 5xx: el sistema está sobrecargado o tiene problemas importantes.

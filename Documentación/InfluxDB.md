@@ -339,3 +339,8 @@ rápidos en tiempo real.
     2015-04-16T12:00:02Z	 15
     2015-04-16T12:00:03Z	 15  
   ```
+   Puntos clave:
+     * Measurements en influxDB hacen referencia al nombre de la tabla (foodships). 
+     * Los tags en influxDB hacen referencia a las columnas indexadas en SQL ( park_id,planet). 
+     * Los fields en influxDB hacen referencia a las columnas NO indexadas en SQL (#_foodships).
+     * Los points en influxDB hacen referencia a las filas en SQL (2015-04-16T12:00:00Z).

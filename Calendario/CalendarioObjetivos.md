@@ -9,7 +9,7 @@
 05/05/2020              | Instalación influxDB/uso      | 1 hora.   
 08/05/2020 - 11/05/2020 | Documentación telegraf        | 4 horas
 11/05/2020              | Instalación telegraf          | 1 hora
-12/05/2020 - 15/05/2020 | Correción de datos Grf/inf/tel| 7 horas.                        |
+12/05/2020 - 15/05/2020 | Correción de datos Grf/inf/tel| 6 horas.                        |
 16/05/2020              | Documentación Docker grafana  |
 Por determinar          | Implementación en Docker      |
 

@@ -260,8 +260,17 @@ datos mediante **URL**.
 
       {"results":[{"statement_id":0}]}
       ```
+    
 
-
+    * Insertar datos mediante comando
+    
+      ```
+      curl -i -XPOST 'http://localhost:8086/write?db=hosts_curl' --data-binary 'host_datos,host=host01
+      cpu_usage=30,mem_usage=60,disk_usage=50 1456738900000000000'
+      ```
+    
+    * Insertar datos mediante un fichero
+    
 
     
 

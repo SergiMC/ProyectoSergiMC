@@ -296,6 +296,11 @@ datos mediante **URL**.
       Date: Sat, 16 May 2020 12:24:24 GMT 
       ```
 
+## Resultado de respuestas HTTP
+
+* 2xx: Si recibió su solicitud de escritura HTTP 204 No Content, ¡Todo Ok!
+* 4xx: InfluxDB no pudo entender la solicitud.
+* 5xx: el sistema está sobrecargado o tiene problemas importantes.
 
 
 

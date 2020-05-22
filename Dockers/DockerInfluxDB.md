@@ -2,7 +2,7 @@
 
 Implementaremos el servidor influxDB en un docker.
 
-Para implementarlo, nos descargaremos el docker creado por influxDB.
+Para implementarlo, utilizaremos el docker creado por influxDB.
 
 ```
 docker pull influxdb

@@ -8,7 +8,7 @@ Para implementarlo, nos descargaremos el docker creado por grafana con la últim
 docker pull grafana/grafana:7.0.0-ubuntu
 ```
 
-Para ejecutar la imagen, utilizaremos el comando **docker run** y mapearemos al puerto 3000 que es el que utiliza
+Para ejecutar la imagen y crear un docker, utilizaremos el comando **docker run** y mapearemos al puerto 3000 que es el que utiliza
 grafana.
 
 ```

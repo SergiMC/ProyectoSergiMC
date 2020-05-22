@@ -2,7 +2,7 @@
 
 Implementaremos el servidor grafana en un docker.
 
-Para implementarlo, nos descargaremos el docker creado por grafana con la última versión actualizada.
+Para implementarlo, utilizaremos el docker creado por grafana con la última versión actualizada.
 
 ```
 docker pull grafana/grafana:7.0.0-ubuntu

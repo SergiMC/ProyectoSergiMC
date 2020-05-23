@@ -34,7 +34,7 @@ que telegraf envie las métricas, en nuestro caso utilizaremos influxdb.
 
 ```
 
-## Crear el docker de telegraf.
+## Crear el docker de telegraf
 
 Deberemos añadir los volumenes que necesitamos para que el docker telegraf se configure a través del fichero que hemos creado  y configurado, también añadiremos el socket del docker, tendremos que añadir la opción add-host para que utilize la ip del docker influxdb ya que si no se la indicamos, utilizará la ip de nuestro propio docker.
 

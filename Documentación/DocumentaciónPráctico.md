@@ -66,3 +66,39 @@ volumes:
 networks:
   netproyecto:
 ```
+
+Ejecutamos el docker compose en modo datach.
+
+```
+[sergimc@192 grafana]$ docker-compose up -d
+Creating telegraf ... 
+Creating grafana ... 
+Creating influxdb ... 
+Creating telegraf
+Creating grafana
+Creating grafana ... done
+```
+Comprobamos que los puertos esten mapeados a nuestro host, los puertos que tenemos que validar son:
+
+* Port: 3000 , Service: ppp
+* Port: 8086 , Service: d-s-n
+* Port: 8088 , Service: radan-http
+
+```
+[sergimc@192 grafana]$ nmap localhost
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-05-25 14:21 CEST
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00025s latency).
+Other addresses for localhost (not scanned): ::1
+Not shown: 994 closed ports
+PORT     STATE SERVICE
+631/tcp  open  ipp
+3000/tcp open  ppp
+3306/tcp open  mysql
+5432/tcp open  postgresql
+8086/tcp open  d-s-n
+8088/tcp open  radan-http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.13 seconds
+```

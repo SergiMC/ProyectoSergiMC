@@ -17,3 +17,4 @@ La estructura del esquema está compuesta por 3 dockers:
 * Docker de Telegraf
 * Docker de InfluxDB
 * Docker de Grafana
+

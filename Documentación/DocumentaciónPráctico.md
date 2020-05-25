@@ -12,3 +12,8 @@ El caso práctico consistirá en montar una estructura de dockers con **infuxdb*
 
 ![Estructura](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/esquema.jpg)
 
+La estructura del esquema está compuesta por 3 dockers:
+
+* Docker de Telegraf
+* Docker de InfluxDB
+* Docker de Grafana

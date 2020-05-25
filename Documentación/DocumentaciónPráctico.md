@@ -18,3 +18,51 @@ La estructura del esquema está compuesta por 3 dockers:
 * Docker de InfluxDB
 * Docker de Grafana
 
+## Ejecución de la estructura de los dockers
+
+Para poner en funcionamiento la estructura de lo dockers, crearemos un docker-compose.yml y lo configuraremos con los 3 dockers.
+
+```
+version: "2"
+services:
+  #Servidor Grafana
+  grafana:
+    image: sergimc/grafana
+    container_name: grafana
+    hostname: grafana
+    ports:
+      - "3000:3000"
+    volumes:
+      - "grafana_v:/usr/share/grafana/data"
+    networks:
+     - netproyecto
+  #Servidor InfluxDB
+  influxdb:
+    image: sergimc/influxdb
+    container_name: influxdb
+    hostname: influxdb
+    ports:
+      - "8086:8086"
+      - "8088:8088"
+    volumes:
+      - "influxdb_v:/var/lib/influxdb"
+    networks:
+     - netproyecto
+  #Servidor Telegraf
+  telegraf:
+   image: sergimc/telegraf
+   container_name: telegraf
+   hostname: telegraf
+   restart: always
+   volumes:
+    - ./telegraf.conf:/etc/telegraf/telegraf.conf:ro
+    - /var/run/docker.sock:/var/run/docker.sock:ro
+   networks:
+     - netproyecto
+
+volumes:
+  grafana_v:
+  influxdb_v:
+networks:
+  netproyecto:
+```

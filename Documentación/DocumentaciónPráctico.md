@@ -10,4 +10,5 @@ El caso práctico consistirá en montar una estructura de dockers con **infuxdb*
 
 ## Estructura de los dockers
 
+![Estructura](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/esquema.jpg)
 

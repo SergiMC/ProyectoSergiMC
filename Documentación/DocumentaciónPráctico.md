@@ -131,7 +131,27 @@ Para comprobar que telegraf funciona correctamente pasando las métricas a influ
 Entraremos en el docker e comprobamos en la ruta que hemos configurado si el fichero recibe las métricas.
 
 ```
-
+[sergimc@192 grafana]$ docker exec -it telegraf /bin/bash
+```
+```
+root@telegraf:/# ls /tmp/datos.js 
+/tmp/datos.js
+root@telegraf:/# more /tmp/datos.js 
+{"fields":{"usage_guest":0,"usage_guest_nice":0,"usage_idle":56.09943618657149,"
+usage_iowait":21.96309584828384,"usage_irq":0.17939518195797735,"usage_nice":0,"
+usage_softirq":0.10251153254741303,"usage_steal":0,"usage_system":1.204510507432
+1258,"usage_user":20.451050743209382},"name":"cpu","tags":{"cpu":"cpu-total","ho
+st":"telegraf"},"timestamp":1590666150}
+{"fields":{"usage_guest":0,"usage_guest_nice":0,"usage_idle":15.794871794871423,
+"usage_iowait":8.71794871794866,"usage_irq":0.30769230769231026,"usage_nice":0,"
+usage_softirq":0.10256410256410493,"usage_steal":0,"usage_system":1.025641025641
+0402,"usage_user":74.05128205128204},"name":"cpu","tags":{"cpu":"cpu3","host":"t
+elegraf"},"timestamp":1590666150}
+{"fields":{"usage_guest":0,"usage_guest_nice":0,"usage_idle":55.578300921185736,
+"usage_iowait":40.020470829068614,"usage_irq":0.1023541453428844,"usage_nice":0,
+"usage_softirq":0.10235414534288895,"usage_steal":0,"usage_system":1.43295803480
+04178,"usage_user":2.7635619242580423},"name":"cpu","tags":{"cpu":"cpu2","host":
+"telegraf"},"timestamp":1590666150}
 ```
 
 * **InfluxDB**

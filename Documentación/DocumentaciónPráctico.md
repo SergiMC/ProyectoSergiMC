@@ -133,6 +133,8 @@ Entraremos en el docker e comprobamos en la ruta que hemos configurado si el fic
 ```
 [sergimc@192 grafana]$ docker exec -it telegraf /bin/bash
 ```
+Datos del fichero:
+
 ```
 root@telegraf:/# ls /tmp/datos.js 
 /tmp/datos.js

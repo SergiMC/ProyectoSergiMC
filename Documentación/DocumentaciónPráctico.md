@@ -105,7 +105,7 @@ Nmap done: 1 IP address (1 host up) scanned in 0.13 seconds
 
 ## Comprobación del funcionamiento de Influxdb y Telegraf
 
-* Telegraf
+* **Telegraf**
 
 Para comprobar que telegraf funciona correctamente pasando las métricas a influxdb, deberemos configurar anteriormente telegraf para que todas las métricas que vayan a ser enviadas a influxdb, sean escritas en un fichero con extension .JSON
 
@@ -128,8 +128,20 @@ Para comprobar que telegraf funciona correctamente pasando las métricas a influ
                                
 ```
 
+Entraremos en el docker e comprobamos en la ruta que hemos configurado si el fichero recibe las métricas.
 
-* InfluxDB 
+```
+
+```
+
+* **InfluxDB**
+
+
+```
+
+```
+
+## Comprobación del funcionamiento de Grafana
 
 
 

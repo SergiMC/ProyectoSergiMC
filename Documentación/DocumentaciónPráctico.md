@@ -107,6 +107,27 @@ Nmap done: 1 IP address (1 host up) scanned in 0.13 seconds
 
 * Telegraf
 
+Para comprobar que telegraf funciona correctamente pasando las métricas a influxdb, deberemos configurar anteriormente telegraf para que todas las métricas que vayan a ser enviadas a influxdb, sean escritas en un fichero con extension .JSON
+
+```
+# OUTPUT FILES
+[[outputs.file]]
+  ## Files to write to, "stdout" is a specially handled file.
+  files = ["stdout", "/tmp/datos.js"]
+
+  ## Data format to output.
+  ## Each data format has its own unique set of configuration options, read
+  ## more about them here:
+  ## https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_OUTPUT.md
+  data_format = "json"
+
+  ## The resolution to use for the metric timestamp.  Must be a duration string
+  ## such as "1ns", "1us", "1ms", "10ms", "1s".  Durations are truncated to
+  ## the power of 10 less than the specified units.
+  json_timestamp_units = "1s"
+                               
+```
+
 
 * InfluxDB 
 

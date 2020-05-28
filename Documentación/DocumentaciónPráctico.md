@@ -104,3 +104,13 @@ Nmap done: 1 IP address (1 host up) scanned in 0.13 seconds
 ```
 
 ## Comprobación del funcionamiento de Influxdb y Telegraf
+
+* Telegraf
+
+
+* InfluxDB 
+
+
+
+
+

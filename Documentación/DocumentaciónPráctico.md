@@ -158,10 +158,36 @@ elegraf"},"timestamp":1590666150}
 
 * **InfluxDB**
 
+Para comprobar que influxdb está captando las métricas que le envía telegraf, deberemos entrar en el docker de influx y entrar a la base de datos mostrando las bases y sus measurements.
 
 ```
+[sergimc@192 grafana]$ docker exec -it influxdb /bin/bash
+```
+
+Mostramos las bases de datos y los measurements.
 
 ```
+root@influxdb:/# influx 
+Connected to http://localhost:8086 version 1.8.0
+InfluxDB shell version: 1.8.0
+> show databases
+name: databases
+name
+----
+telegraf
+_internal
+> use telegraf
+Using database telegraf
+> show measurements
+name: measurements
+name
+----
+cpu
+disk
+mem
+```
+
+
 
 ## Comprobación del funcionamiento de Grafana
 

@@ -191,7 +191,18 @@ mem
 
 ## Comprobación del funcionamiento de Grafana
 
+Para comprobar el funcionamiento de grafana, nos conectaremos a grafana a través del navegador: http://ip-del-docker:3000.
+Nos conectaremos a grafana con las credenciales que nos proporciona grafana, user: admin , password: admin.
 
+FOTO
+
+Ya conectados, pasaremos a connectar e implementar nuestra base de datos de influxdb con las métricas que nos proporciona telegraf.
+
+FOTO
+
+Una vez agregada ya la base de datos, crearemos nuestro dashboard con una serie de paneles para visualizar dichos datos que hemos configurado.
+
+FOTO
 
 
 

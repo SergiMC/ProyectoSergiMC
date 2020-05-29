@@ -15,7 +15,7 @@ Los pasos para la configuración:
 
 ---------------------------------------------------------------------------------------------------------------------------
 
-* 1.Crear Rol
+* **1.Crear Rol**
 
 Para que grafana pueda utilizar nuestra base de datos, es necesario que le asociemos un usuario con rol de solo lectura para las bases de datos que configuremos.
 
@@ -39,4 +39,4 @@ ember of
  rol_readonly | Cannot login                                               | {}
 ```
 
-* 2.Crear usuario
+* **2.Crear usuario**

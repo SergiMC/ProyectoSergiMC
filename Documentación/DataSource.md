@@ -64,3 +64,6 @@ Member of
  usr_grafana  |                                                            | {r
 ol_readonly}
 ```
+* **3.Añadir rol a la base de datos**
+
+* **4.Uso de Grafana**

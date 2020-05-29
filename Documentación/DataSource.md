@@ -5,3 +5,8 @@ configuraremos un data source a grafana para crear un dashboard y visualizar los
 data source, **Mysql (Postgresql)**.
 
 ## Configuración
+
+  * 1. Crear Rol
+  * 2. Crear Usuario
+  * 3. Añadir Rol a la base de datos
+  * 4. Uso de Grafana

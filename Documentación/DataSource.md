@@ -66,6 +66,8 @@ ol_readonly}
 ```
 * **3.Añadir rol a la base de datos**
 
+Conectaremos la base de datos que vayamos a utilizar al rol de read_only y luego añadiremos la tabla que usaremos en modo lectura al rol de read_only.
+
 ```
 postgres=# \c corona_grafana 
 You are now connected to database "corona_grafana" as user "postgres".

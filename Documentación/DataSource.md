@@ -66,4 +66,13 @@ ol_readonly}
 ```
 * **3.Añadir rol a la base de datos**
 
+```
+postgres=# \c corona_grafana 
+You are now connected to database "corona_grafana" as user "postgres".
+corona_grafana=# GRANT CONNECT ON DATABASE corona_grafana TO rol_readonly;
+GRANT
+corona_grafana=# GRANT SELECT ON datos_countries TO rol_readonly;
+GRANT
+```
+
 * **4.Uso de Grafana**

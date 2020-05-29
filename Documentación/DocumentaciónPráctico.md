@@ -194,7 +194,7 @@ mem
 Para comprobar el funcionamiento de grafana, nos conectaremos a grafana a través del navegador: http://ip-del-docker:3000.
 Nos conectaremos a grafana con las credenciales que nos proporciona grafana, user: admin , password: admin.
 
-![intro](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/intro.png)
+![introgrf](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/introgrf.png)
 
 Ya conectados, pasaremos a connectar e implementar nuestra base de datos de influxdb con las métricas que nos proporciona telegraf.
 

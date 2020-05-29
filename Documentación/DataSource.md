@@ -6,6 +6,8 @@ data source, **Mysql (Postgresql)**.
 
 ## Configuración
 
+Los pasos para la configuración:
+
   * 1. Crear Rol
   * 2. Crear Usuario
   * 3. Añadir Rol a la base de datos

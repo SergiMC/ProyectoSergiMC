@@ -198,7 +198,7 @@ Nos conectaremos a grafana con las credenciales que nos proporciona grafana, use
 
 Ya conectados, pasaremos a connectar e implementar nuestra base de datos de influxdb con las métricas que nos proporciona telegraf.
 
-FOTO
+![insertdata](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/insertdata.png)
 
 Una vez agregada ya la base de datos, crearemos nuestro dashboard con una serie de paneles para visualizar dichos datos que hemos configurado.
 

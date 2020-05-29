@@ -40,3 +40,27 @@ ember of
 ```
 
 * **2.Crear usuario**
+
+Para crear el usuario que usaremos para grafana, deberemos salir del psql y lo crearemos con el comando **createuser**. Le asignaremos el rol de read_only y le daremos un password.
+
+```
+[postgres@192 ~]$ createuser -h localhost -p 5432 -U postgres -D -E -g rol_readonly -P -R -S usr_grafana
+Enter password for new role: 
+Enter it again:
+```
+
+Confirmamos que se ha creado correctamente el usuario con el comando \du:
+
+```
+postgres=# \du
+                                       List of roles
+  Role name   |                         Attributes                         |   
+Member of    
+--------------+------------------------------------------------------------+---
+-------------
+ isx39449342  | Create DB                                                  | {}
+ postgres     | Superuser, Create role, Create DB, Replication, Bypass RLS | {}
+ rol_readonly | Cannot login                                               | {}
+ usr_grafana  |                                                            | {r
+ol_readonly}
+```

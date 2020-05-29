@@ -8,10 +8,10 @@ data source, **Mysql (Postgresql)**.
 
 Los pasos para la configuración:
 
-  * 1. Crear Rol
-  * 2. Crear Usuario
-  * 3. Añadir Rol a la base de datos
-  * 4. Uso de Grafana
+  * 1.Crear Rol
+  * 2.Crear Usuario
+  * 3.Añadir Rol a la base de datos
+  * 4.Uso de Grafana
 
 
 * **1.Crear Rol**

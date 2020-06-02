@@ -82,7 +82,18 @@ GRANT
 Una vez hayamos configurado la parte de base de datos, accederemos a grafana e añadiremos un data source, en este caso postgresql. Para configurarlo, requeriremos:
 
 * Usuario que hemos creado y configurado en la base de datos
-* Ruta
-* Nombre de la base de datos.
+* Nombre de la base de datos
+* Ruta de nuestro host y puerto del servicio
 
 ![configdatasource](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/configdatasource.png)
+
+
+Configurado el datasource, crearemos un dashboard con los paneles que necesitemos para visualizar los datos respectivos
+al datasource que hemos insertado. 
+
+![Datosmundiales](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/Datosmundiales.png)
+
+
+
+
+

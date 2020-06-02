@@ -10,8 +10,9 @@
 08/05/2020 - 11/05/2020 | Documentación telegraf        | 4 horas
 11/05/2020              | Instalación telegraf          | 1 hora
 12/05/2020 - 15/05/2020 | Correción de datos Grf/inf/tel| 6 horas.                        |
-16/05/2020              | Documentación Docker grafana  |
-Por determinar          | Implementación en Docker      |
+16/05/2020 - 18/05/2020 | Documentación Docker grafana  |  horas.
+16/05/2020 - 18/05/2020 | Implementación en Docker      | 2 horas.
+19/05/2020 - 22/05/2020 | Documentación Docker 
 
 Estos son los objetivos que tengo en mente de momento, solo es un borrador ya que pueden haber mas o pueden ser modificados.
                         

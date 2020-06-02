@@ -78,3 +78,7 @@ GRANT
 ```
 
 * **4.Uso de Grafana**
+
+Una vez hayamos configurado la parte de base de datos, accederemos a grafana e añadiremos un data source, en este caso postgresql:
+
+![configdatasource](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/configdatasource.png)

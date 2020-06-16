@@ -33,7 +33,7 @@
 
 ------------------------------------------------------------------------
 
-# Visualización de Grafana
+# Visualización de Grafana (1)
 
 - Pantalla de inicio en Grafana.
 
@@ -46,6 +46,7 @@
 - Pantalla de Tareas.
 
 ![](inicioGrafana.png)
+
 
 ------------------------------------------------------------------------
 
@@ -62,7 +63,7 @@
 
 - Pantalla de dashboard y paneles.
 
-![](datospc12h.png)
+![](datos.png)
 
 ------------------------------------------------------------------------
 

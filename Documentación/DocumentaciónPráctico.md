@@ -202,7 +202,7 @@ Ya conectados, pasaremos a connectar e implementar nuestra base de datos de infl
 
 Una vez agregada ya la base de datos, crearemos nuestro dashboard con una serie de paneles para visualizar dichos datos que hemos configurado.
 
-![insertdashboard](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/datospc12h.png)
+![insertdashboard](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/datos.png)
 
 
 

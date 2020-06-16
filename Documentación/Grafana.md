@@ -95,6 +95,6 @@ Elegido y configuado el panel,deberemos hacer una consulta escogiendo los datos 
 
 Finalmente con la query añadida, nos saldrá nuestro panel con los datos configurados, en este caso, hemos hecho 3 paneles con 3 querys distinas. Grafana proporicona diferentes medidas para cualquier tipo de dato. 
 
-![finalgrafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/datospc12h.png)
+![finalgrafana](https://github.com/SergiMC/ProyectoSergiMC/blob/master/Fotos/datos.png)
 
 

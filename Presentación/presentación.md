@@ -16,7 +16,7 @@
 
 # Grafana
 
-- Grafana es una herramienta de análisis para métricas, que permite consultar,visualizar,altertar y comprender los datos independientemente de donde estén almacenados. 
+- Grafana es una herramienta de análisis para métricas, que permite consultar,visualizar,alterar y comprender los datos independientemente de donde estén almacenados. 
 
 - Grafana es un software libre basado en la licencia de Apache 2.0 creada por Torkel Ödegaard, en enero de 2014.
 

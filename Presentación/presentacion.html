@@ -27,8 +27,18 @@
 <section id="grafana" class="slide level1">
 <h1>Grafana</h1>
 <ul>
-<li><p>Grafana es una herramienta de análisis para métricas, que permite consultar,visualizar,alterar y comprender los datos independientemente de donde estén almacenados.</p></li>
+<li><p>Grafana es una herramienta de análisis para métricas, que permite consultar,visualizar,altertar y comprender los datos independientemente de donde estén almacenados.</p></li>
 <li><p>Grafana es un software libre basado en la licencia de Apache 2.0 creada por Torkel Ödegaard, en enero de 2014.</p></li>
+</ul>
+</section>
+<section id="características-de-grafana" class="slide level1">
+<h1>Características de Grafana</h1>
+<ul>
+<li>Grafana tiene una gran amplitud de Dashboards y paneles.</li>
+<li>Grafana permite la autenticación con LDAP,TLS,Google Auth,grafana y github.</li>
+<li>Grafana permite el intercambio de datos y dashboards entre equipos.</li>
+<li>Grafana permite crear alertas de seguridad.</li>
+<li>Grafana ayuda a rastrear el comportamiento del usuario y de las aplicaciones.</li>
 </ul>
 </section>
 <section id="paneles-de-grafana-y-el-dashboard" class="slide level1">
@@ -62,14 +72,23 @@
 <section id="visualización-de-grafana-3" class="slide level1">
 <h1>Visualización de Grafana (3)</h1>
 <ul>
+<li>Pantalla de gráficos.</li>
+</ul>
+<figure>
+<img src="tiposgraficos.png" />
+</figure>
+</section>
+<section id="visualización-de-grafana-4" class="slide level1">
+<h1>Visualización de Grafana (4)</h1>
+<ul>
 <li>Composición de la Query.</li>
 </ul>
 <figure>
 <img src="query.png" />
 </figure>
 </section>
-<section id="visualización-de-grafana-4" class="slide level1">
-<h1>Visualización de Grafana (4)</h1>
+<section id="visualización-de-grafana-5" class="slide level1">
+<h1>Visualización de Grafana (5)</h1>
 <ul>
 <li>Pantalla de dashboard y paneles.</li>
 </ul>
@@ -196,10 +215,21 @@
 <ul>
 <li>Docker de Telegraf</li>
 <li>Docker de InfluxDB</li>
-<li>Docker de Grafana</li>
+<li><p>Docker de Grafana</p></li>
+<li><p>Datos: RAM , DISK , CPU</p></li>
 </ul>
-<p>-Datos: RAM , DISK , CPU</p>
 <p>Con el docker de telegraf, recopilaremos los datos de cpu,ram,disk de nuestro pc y enviaremos las métricas a InfluxDB. Enviada las réplicas, utilizaremos el docker grafana para visualizar los datos creando un dashboard y configurando los paneles.</p>
+</section>
+<section id="estructura-del-caso-práctico-data-source" class="slide level1">
+<h1>Estructura del caso práctico Data Source</h1>
+<p>La estructura del caso práctico data source está compuesta por:</p>
+<ul>
+<li>Rol</li>
+<li>Usuario</li>
+<li>Configuración de la base de datos y tablas</li>
+<li>Configuración data Source en grafana</li>
+<li>Visualización de datos en paneles</li>
+</ul>
 </section>
 <section id="fin" class="slide level1">
 <h1>FIN</h1>

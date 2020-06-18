@@ -16,12 +16,24 @@
 
 # Grafana
 
-- Grafana es una herramienta de análisis para métricas, que permite consultar,visualizar,alterar y comprender los datos independientemente de donde estén almacenados. 
+- Grafana es una herramienta de análisis para métricas, que permite consultar,visualizar,altertar y comprender los datos independientemente de donde estén almacenados. 
 
 - Grafana es un software libre basado en la licencia de Apache 2.0 creada por Torkel Ödegaard, en enero de 2014.
 
 
 ------------------------------------------------------------------------
+
+# Características de Grafana
+
+- Grafana tiene una gran amplitud de Dashboards y paneles.
+- Grafana permite la autenticación con LDAP,TLS,Google Auth,grafana y github.
+- Grafana permite el intercambio de datos y dashboards entre equipos.
+- Grafana permite crear alertas de seguridad.
+- Grafana ayuda a rastrear el comportamiento del usuario y de las aplicaciones.
+
+
+------------------------------------------------------------------------
+
 
 # Paneles de Grafana y el dashboard
 
@@ -47,10 +59,18 @@
 
 ![](inicioGrafana.png)
 
-
 ------------------------------------------------------------------------
 
 # Visualización de Grafana (3)
+
+- Pantalla de gráficos.
+
+![](tiposgraficos.png)
+
+
+------------------------------------------------------------------------
+
+# Visualización de Grafana (4)
 
 - Composición de la Query.
 
@@ -59,7 +79,7 @@
 
 ------------------------------------------------------------------------
 
-# Visualización de Grafana (4)
+# Visualización de Grafana (5)
 
 - Pantalla de dashboard y paneles.
 
@@ -210,10 +230,22 @@ La estructura del esquema está compuesta por 3 dockers:
 - Docker de InfluxDB
 - Docker de Grafana
 
--Datos: RAM , DISK , CPU
+- Datos: RAM , DISK , CPU
 
 Con el docker de telegraf, recopilaremos los datos de cpu,ram,disk de nuestro pc y enviaremos las métricas a InfluxDB. 
 Enviada las réplicas, utilizaremos el docker grafana para visualizar los datos creando un dashboard y configurando los paneles.
+
+------------------------------------------------------------------------
+
+# Estructura del caso práctico Data Source
+
+La estructura del caso práctico data source está compuesta por:
+
+- Rol
+- Usuario
+- Configuración de la base de datos y tablas
+- Configuración data Source en grafana
+- Visualización de datos en paneles
 
 ------------------------------------------------------------------------
 

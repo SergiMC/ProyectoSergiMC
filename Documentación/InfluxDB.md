@@ -19,9 +19,8 @@ Dentro de las características de InfluxDB debemos de tener en cuenta una serie 
 * **Database:** Contendor que contiene series temporales,usuarios,políticas de retención...
 * **Measurement:** Estructura en la que se almacena los datos.
 * **Timestamp:** Es la asociación de la fecha y hora en los datos almacenados.
-* **Field:** Es el par clave-valor que almacena los valores de los datos y siempre están asociados a un timestamp.
-(Campos no indexados).
-* **Tag:** Es el par clave-valor que almacena valores de metadatos. (Campos indexados y almacenados como string) 
+* **Field:** Es el par clave-valor que contiene los datos de la métrica.
+* **Tag:** Es el par clave-valor que se utiliza para identificar la métrica.
 * **Point:** Es el conjunto de valores de campos y tags asociados a un timestamp. 
 * **Retention polity:** Describe durante cuanto tiempo mantiene influxDB los datos en la infraestructura, cantidad de copias  de seguridad crea y el tiempo asociado a los shard groups.
 * **Shard:** Contiene los datos comprimidos y codificados que se guardan en un archivo del disco del servidor. Cada shard pertenece a un solo grupo de shard.
